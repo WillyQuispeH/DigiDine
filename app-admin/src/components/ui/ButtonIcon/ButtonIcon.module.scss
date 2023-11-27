@@ -1,0 +1,29 @@
+.buttonIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  transition: transform 0.3s linear;
+  cursor: pointer;
+  background: #60b2e4;
+
+  span {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    color: #fff;
+    font-size: 30px;
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+
+  &:disabled {
+    pointer-events: none;
+    background-color: #c1c1c1;
+  }
+}

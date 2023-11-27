@@ -1,0 +1,42 @@
+[
+  {
+    "user": {
+      "id": "9392c3b3-4ce9-44ec-9aa1-838c1c6892d6",
+      "person_id": "1027da10-c468-4cac-a6eb-c57d6247c31c"
+    },
+    "person": {
+      "id": "1027da10-c468-4cac-a6eb-c57d6247c31c",
+      "name": "Willy",
+      "email": "Quispeabadquispe@gmail.com",
+      "phone": "957902342",
+      "maternalLastName": "Huamani",
+      "paternalLastName": "Quispe"
+    },
+    "product": [],
+
+    "comercio": {
+      "id": "ae584ccd-b691-4619-aabf-7b15539743ee",
+      "date": "2012-12-12T00:00:00"
+    }
+  },
+  {
+    "user": {
+      "id": "9392c3b3-4ce9-44ec-9aa1-838c1c6892d6",
+      "person_id": "1027da10-c468-4cac-a6eb-c57d6247c31c"
+    },
+    "person": {
+      "id": "1027da10-c468-4cac-a6eb-c57d6247c31c",
+      "name": "Willy",
+      "email": "Quispeabadquispe@gmail.com",
+      "phone": "957902342",
+      "maternalLastName": "Huamani",
+      "paternalLastName": "Quispe"
+    },
+    "product": [],
+
+    "comercio": {
+      "id": "ae584ccd-b691-4619-aabf-7b15539743ee",
+      "date": "2012-12-12T00:00:00"
+    }
+  }
+]

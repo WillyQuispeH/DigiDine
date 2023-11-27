@@ -1,0 +1,29 @@
+.button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #60b2e4;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.3s linear;
+
+    &:active {
+      transform: scale(0.9);
+    }
+
+    &:disabled {
+      pointer-events: none;
+      background-color: #c1c1c1;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 70px;
+  background-color: #243343;
+  z-index: 22;
+}
+
+.buttonLogoNavBar {
+  width: 270px;
+  padding: 0 5px;
+  height: 70px;
+  border-right: 1px solid #3f5265;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  span {
+    width: 50px;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 7px;
+  }
+}

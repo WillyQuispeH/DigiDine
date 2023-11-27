@@ -1,0 +1,30 @@
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  .registerContent {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+
+    background-image: url("/foto4.jpg");
+  }
+  .contentButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 11;
+    background-color: aquamarine;
+  }
+}

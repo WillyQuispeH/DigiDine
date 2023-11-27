@@ -1,0 +1,42 @@
+.cardIngredients {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 40px;
+  padding: 0 10px;
+  gap: 2px;
+  border-radius: 7px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  margin: 1px;
+  background-color: white;
+
+  h1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #666;
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    background-color: #3f5265;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(0.95);
+    }
+  }
+}
+
+.categoriaValue {
+  font-size: 15px;
+  font-weight: 500;
+  color: #666;
+}

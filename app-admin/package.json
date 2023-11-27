@@ -1,0 +1,30 @@
+{
+  "name": "app-admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env APP_ENV=dev next dev -p 3002",
+    "build": "next build",
+    "start": "cross-env APP_ENV=prod next start -H 0.0.0.0",
+    "lint": "next lint",
+    "start-localhost": "next start"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "next": "^14.0.2",
+    "next-auth": "^4.24.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-easy-crop": "^5.0.2",
+    "sass": "^1.69.5",
+    "zustand": "^4.4.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.2",
+    "typescript": "^5"
+  }
+}

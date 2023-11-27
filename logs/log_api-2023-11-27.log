@@ -1,0 +1,137 @@
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 18:17:23"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 18:17:23"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 18:17:26"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342yujyuj"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 18:17:34"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 18:18:13"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342asdasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 18:18:30"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 18:19:04"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 18:19:06"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 18:19:34"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342aasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 18:19:37"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342aasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 18:30:18"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 18:30:23"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 19:47:51"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 19:47:51"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 19:48:03"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 19:48:03"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 19:49:44"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 19:49:44"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 19:50:04"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 19:50:04"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 19:50:10"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 19:50:10"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 19:50:21"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 19:50:22"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 19:50:38"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 19:50:38"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 19:50:43"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 19:50:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:03:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:03:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:05:26"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 20:06:04"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 20:06:04"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 20:06:13"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 20:06:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:06:13"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 20:07:53"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 20:07:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:08:14"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 20:09:22"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 20:09:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:09:25"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 20:09:37"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 20:09:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:10:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:16:52"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 20:17:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:17:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:18:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:18:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:18:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:18:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:20:34"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:21:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:22:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:22:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:23:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:23:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:23:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 20:24:11"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 22:14:37"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 22:14:37"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 22:27:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 22:27:05"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 22:28:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 22:28:33"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 22:50:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 22:50:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 22:55:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 22:55:05"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 22:57:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 22:57:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 22:57:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 22:58:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 22:59:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:01:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:02:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:02:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:06:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:06:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:14:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:14:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:16:12"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:16:12"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:17:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:17:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:26:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:26:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:26:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:26:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:26:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:26:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:30:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:30:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:41:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:41:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:43:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:43:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:44:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:44:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:44:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:44:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:47:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:47:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:48:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:48:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:49:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:49:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:49:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:49:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:49:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:49:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:51:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:51:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:52:12"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:52:12"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:52:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:52:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:52:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:52:29"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 23:52:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:52:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:52:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:53:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:53:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:53:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:53:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:57:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-26 23:57:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-27 00:06:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-27 00:06:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-27 00:06:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-27 00:06:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-27 00:06:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-27 00:06:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-27 00:08:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-27 00:08:20"}

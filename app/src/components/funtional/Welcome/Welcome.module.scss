@@ -1,0 +1,19 @@
+@import "../../../styles/mixins.scss";
+
+.welcome {
+  margin-top: 80px;
+}
+
+.contentCardProduct {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 1300px;
+
+  @include media-xl() {
+    width: 100%;
+    gap: 10px;
+  }
+}

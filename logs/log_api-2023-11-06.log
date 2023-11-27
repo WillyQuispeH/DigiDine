@@ -1,0 +1,27 @@
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-05 22:56:38"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-05 22:56:43"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-05 23:32:32"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-05 23:37:28"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-05 23:37:31"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-05 23:38:05"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-05 23:39:21"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-05 23:41:21"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-05 23:42:54"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-05 23:43:01"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-05 23:45:23"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-05 23:49:57"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-05 23:52:01"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-05 23:55:23"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-05 23:56:01"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-05 23:57:18"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-05 23:57:57"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-06 00:03:56"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-06 00:06:09"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-06 00:06:18"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-06 00:07:09"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-06 00:08:08"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-06 00:10:04"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-06 00:10:18"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-06 00:11:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/status"},"timestamp":"2023-11-06 00:12:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/status"},"timestamp":"2023-11-06 00:12:26"}

@@ -1,0 +1,27 @@
+import styles from "./Input.module.scss";
+import * as React from "react";
+import { cn } from "@/util/cn";
+
+export interface InputProps
+  extends React.InputHTMLAttributes<HTMLInputElement> {
+  width?: string;
+  label?: string;
+  isValid: boolean;
+}
+
+const Input = React.forwardRef<HTMLInputElement, InputProps>(
+  ({ className, type, width, label, isValid, ...props }, ref) => {
+    return (
+      <div
+        className={isValid ? styles.input : styles.inputAlert}
+        style={{ width }}
+      >
+        <label>{label}</label>
+        <input type={type} ref={ref} {...props} />
+      </div>
+    );
+  }
+);
+Input.displayName = "Input";
+
+export default Input;

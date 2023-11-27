@@ -1,0 +1,33 @@
+.cardSocial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 5px;
+  width: 100px;
+  height: 120px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  &:hover img {
+    border: 2px solid rgb(255, 255, 255);
+  }
+  &:hover p {
+    font-size: 16px;
+  }
+
+  img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: all 0.5s;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    transition: all 0.5s;
+  }
+}

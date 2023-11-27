@@ -1,0 +1,210 @@
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:12:48"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:17:22"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:18:18"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:21:42"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:23:30"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:23:35"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:35:44"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:36:17"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:36:34"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:36:45"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:36:58"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:37:13"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:37:20"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:37:31"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:38:03"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:38:43"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:39:48"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:40:01"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:40:54"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:40:59"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:41:28"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:41:34"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:42:05"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:42:49"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:43:18"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:46:52"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:46:57"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:48:09"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:50:33"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:51:11"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:52:05"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:53:31"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:53:42"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:53:52"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:54:05"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:54:27"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:54:30"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:54:41"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:55:14"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:55:49"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:56:02"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:56:07"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 02:56:07"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:56:33"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 02:56:33"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:56:40"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 02:56:40"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 02:56:56"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 02:56:56"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 03:16:21"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 03:16:21"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 03:20:19"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 03:20:19"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 03:54:13"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 03:54:13"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 03:55:22"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 03:55:22"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 03:55:28"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 03:55:28"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 03:55:36"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 03:55:36"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 03:56:34"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 03:56:34"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 03:56:41"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 03:56:41"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 03:56:50"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 03:56:50"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 04:02:44"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 04:02:44"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 04:02:58"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 04:02:58"}
+{"level":"info","message":{"data":{},"model":"file/add"},"timestamp":"2023-11-26 04:02:59"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 04:04:13"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 04:04:13"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 04:04:33"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 04:04:33"}
+{"level":"info","message":{"data":{},"model":"file/add"},"timestamp":"2023-11-26 04:04:34"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 04:06:22"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 04:06:22"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 04:06:27"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 04:06:27"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 04:08:21"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 04:08:21"}
+{"level":"info","message":{"data":{},"model":"file/add"},"timestamp":"2023-11-26 04:08:24"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 04:15:09"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 04:15:09"}
+{"level":"info","message":{"data":{},"model":"file/add"},"timestamp":"2023-11-26 04:15:10"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 04:16:03"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 04:16:03"}
+{"level":"info","message":{"data":{},"model":"file/add"},"timestamp":"2023-11-26 04:16:04"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 09:33:53"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 09:33:53"}
+{"level":"info","message":{"data":{},"model":"file/add"},"timestamp":"2023-11-26 09:33:55"}
+{"level":"info","message":{"body":{"person":{"email":"quispeabadquispe@gmail.com","id":"","maternalLastName":"huamani","name":"abad","password":"aasdasdqwd","paternalLastName":"quispe","phone":"665465465"},"restaurant":{"address":"San Lorenzo","close":"21:00","district":"condes","email":"portalfirma@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701002037/a1xxaxb1vjhlmhbheyiw.jpg","name":"Dellis","open":"21:00","phone":"957902342","web":"hhtp.logo.com","wifi":"Deliis1111"}},"method":"POST","params":"","query":"","url":"/api/person/getAll"},"timestamp":"2023-11-26 09:41:51"}
+{"level":"info","message":{"body":{"person":{"email":"quispeabadquispe@gmail.com","id":"","maternalLastName":"huamani","name":"abad","password":"aasdasdqwd","paternalLastName":"quispe","phone":"665465465"},"restaurant":{"address":"San Lorenzo","close":"21:00","district":"condes","email":"portalfirma@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701002037/a1xxaxb1vjhlmhbheyiw.jpg","name":"Dellis","open":"21:00","phone":"957902342","web":"hhtp.logo.com","wifi":"Deliis1111"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 09:45:02"}
+{"level":"info","message":{"body":{"person":{"email":"quispeabadquispe@gmail.com","id":"","maternalLastName":"huamani","name":"abad","password":"aasdasdqwd","paternalLastName":"quispe","phone":"665465465"},"restaurant":{"address":"San Lorenzo","close":"21:00","district":"condes","email":"portalfirma@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701002037/a1xxaxb1vjhlmhbheyiw.jpg","name":"Dellis","open":"21:00","phone":"957902342","web":"hhtp.logo.com","wifi":"Deliis1111"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 09:45:02"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 09:45:38"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 09:45:38"}
+{"level":"info","message":{"body":{"person":{"email":"quispeabadquispe@gmail.com","id":"","maternalLastName":"huamani","name":"abad","password":"aasdasdqwd","paternalLastName":"quispe","phone":"665465465"},"restaurant":{"address":"San Lorenzo","close":"21:00","district":"condes","email":"portalfirma@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701002037/a1xxaxb1vjhlmhbheyiw.jpg","name":"Dellis","open":"21:00","phone":"957902342","web":"hhtp.logo.com","wifi":"Deliis1111"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 09:45:43"}
+{"level":"info","message":{"body":{"person":{"email":"quispeabadquispe@gmail.com","id":"","maternalLastName":"huamani","name":"abad","password":"aasdasdqwd","paternalLastName":"quispe","phone":"665465465"},"restaurant":{"address":"San Lorenzo","close":"21:00","district":"condes","email":"portalfirma@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701002037/a1xxaxb1vjhlmhbheyiw.jpg","name":"Dellis","open":"21:00","phone":"957902342","web":"hhtp.logo.com","wifi":"Deliis1111"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 09:45:43"}
+{"level":"error","message":{"error":"error de sintaxis en o cerca de «:»","model":"comercio/create"},"timestamp":"2023-11-26 09:45:43"}
+{"level":"info","message":{"body":{"person":{"email":"quispeabadquispe@gmail.com","id":"","maternalLastName":"huamani","name":"abad","password":"aasdasdqwd","paternalLastName":"quispe","phone":"665465465"},"restaurant":{"address":"San Lorenzo","close":"21:00","district":"condes","email":"portalfirma@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701002037/a1xxaxb1vjhlmhbheyiw.jpg","name":"Dellis","open":"21:00","phone":"957902342","web":"hhtp.logo.com","wifi":"Deliis1111"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 09:45:52"}
+{"level":"info","message":{"body":{"person":{"email":"quispeabadquispe@gmail.com","id":"","maternalLastName":"huamani","name":"abad","password":"aasdasdqwd","paternalLastName":"quispe","phone":"665465465"},"restaurant":{"address":"San Lorenzo","close":"21:00","district":"condes","email":"portalfirma@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701002037/a1xxaxb1vjhlmhbheyiw.jpg","name":"Dellis","open":"21:00","phone":"957902342","web":"hhtp.logo.com","wifi":"Deliis1111"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 09:45:52"}
+{"level":"error","message":{"error":"error de sintaxis en o cerca de «:»","model":"comercio/create"},"timestamp":"2023-11-26 09:45:53"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 09:48:20"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 09:48:20"}
+{"level":"info","message":{"body":{"person":{"email":"quispeabadquispe@gmail.com","id":"","maternalLastName":"huamani","name":"abad","password":"aasdasdqwd","paternalLastName":"quispe","phone":"665465465"},"restaurant":{"address":"San Lorenzo","close":"21:00","district":"condes","email":"portalfirma@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701002037/a1xxaxb1vjhlmhbheyiw.jpg","name":"Dellis","open":"21:00","phone":"957902342","web":"hhtp.logo.com","wifi":"Deliis1111"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 09:48:23"}
+{"level":"info","message":{"body":{"person":{"email":"quispeabadquispe@gmail.com","id":"","maternalLastName":"huamani","name":"abad","password":"aasdasdqwd","paternalLastName":"quispe","phone":"665465465"},"restaurant":{"address":"San Lorenzo","close":"21:00","district":"condes","email":"portalfirma@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701002037/a1xxaxb1vjhlmhbheyiw.jpg","name":"Dellis","open":"21:00","phone":"957902342","web":"hhtp.logo.com","wifi":"Deliis1111"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 09:48:23"}
+{"level":"error","message":{"error":"el huso horario «gmt-0300» no es reconocido","model":"comercio/create"},"timestamp":"2023-11-26 09:48:23"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 09:50:43"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 09:50:43"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 09:51:14"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 09:51:14"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 09:51:51"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 09:51:51"}
+{"level":"info","message":{"body":{"person":{"email":"quispeabadquispe@gmail.com","id":"","maternalLastName":"huamani","name":"abad","password":"aasdasdqwd","paternalLastName":"quispe","phone":"665465465"},"restaurant":{"address":"San Lorenzo","close":"21:00","district":"condes","email":"portalfirma@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701002037/a1xxaxb1vjhlmhbheyiw.jpg","name":"Dellis","open":"21:00","phone":"957902342","web":"hhtp.logo.com","wifi":"Deliis1111"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 09:51:55"}
+{"level":"info","message":{"body":{"person":{"email":"quispeabadquispe@gmail.com","id":"","maternalLastName":"huamani","name":"abad","password":"aasdasdqwd","paternalLastName":"quispe","phone":"665465465"},"restaurant":{"address":"San Lorenzo","close":"21:00","district":"condes","email":"portalfirma@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701002037/a1xxaxb1vjhlmhbheyiw.jpg","name":"Dellis","open":"21:00","phone":"957902342","web":"hhtp.logo.com","wifi":"Deliis1111"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 09:51:55"}
+{"level":"error","message":{"error":"valor de hora/fecha fuera de rango: «09:51:2023»","model":"comercio/create"},"timestamp":"2023-11-26 09:51:55"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 09:52:25"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 09:52:25"}
+{"level":"info","message":{"body":{"person":{"email":"quispeabadquispe@gmail.com","id":"","maternalLastName":"huamani","name":"abad","password":"aasdasdqwd","paternalLastName":"quispe","phone":"665465465"},"restaurant":{"address":"San Lorenzo","close":"21:00","district":"condes","email":"portalfirma@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701002037/a1xxaxb1vjhlmhbheyiw.jpg","name":"Dellis","open":"21:00","phone":"957902342","web":"hhtp.logo.com","wifi":"Deliis1111"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 09:52:27"}
+{"level":"info","message":{"body":{"person":{"email":"quispeabadquispe@gmail.com","id":"","maternalLastName":"huamani","name":"abad","password":"aasdasdqwd","paternalLastName":"quispe","phone":"665465465"},"restaurant":{"address":"San Lorenzo","close":"21:00","district":"condes","email":"portalfirma@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701002037/a1xxaxb1vjhlmhbheyiw.jpg","name":"Dellis","open":"21:00","phone":"957902342","web":"hhtp.logo.com","wifi":"Deliis1111"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 09:52:27"}
+{"level":"error","message":{"error":"valor de hora/fecha fuera de rango: «09:52:2023»","model":"comercio/create"},"timestamp":"2023-11-26 09:52:27"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 09:53:25"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 09:53:25"}
+{"level":"info","message":{"body":{"person":{"email":"quispeabadquispe@gmail.com","id":"","maternalLastName":"huamani","name":"abad","password":"aasdasdqwd","paternalLastName":"quispe","phone":"665465465"},"restaurant":{"address":"San Lorenzo","close":"21:00","district":"condes","email":"portalfirma@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701002037/a1xxaxb1vjhlmhbheyiw.jpg","name":"Dellis","open":"21:00","phone":"957902342","web":"hhtp.logo.com","wifi":"Deliis1111"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 09:53:29"}
+{"level":"info","message":{"body":{"person":{"email":"quispeabadquispe@gmail.com","id":"","maternalLastName":"huamani","name":"abad","password":"aasdasdqwd","paternalLastName":"quispe","phone":"665465465"},"restaurant":{"address":"San Lorenzo","close":"21:00","district":"condes","email":"portalfirma@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701002037/a1xxaxb1vjhlmhbheyiw.jpg","name":"Dellis","open":"21:00","phone":"957902342","web":"hhtp.logo.com","wifi":"Deliis1111"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 09:53:29"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 10:06:44"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 10:06:44"}
+{"level":"info","message":{"data":{},"model":"file/add"},"timestamp":"2023-11-26 10:06:45"}
+{"level":"info","message":{"body":{"person":{"email":"qusiepmaterno@gmail.com","id":"","maternalLastName":"materno2","name":"User1","password":"abadquispe957902","paternalLastName":"apellido1","phone":"957926555"},"restaurant":{"address":"San Lorenzo","close":"05:22","district":"condes","email":"portalfirmasss@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701004008/tilp5ms6wv9zmyucozfz.jpg","name":"Gaman","open":"23:00","phone":"957902342","web":"http/localhost:3022","wifi":"Condor"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 10:06:52"}
+{"level":"info","message":{"body":{"person":{"email":"qusiepmaterno@gmail.com","id":"","maternalLastName":"materno2","name":"User1","password":"abadquispe957902","paternalLastName":"apellido1","phone":"957926555"},"restaurant":{"address":"San Lorenzo","close":"05:22","district":"condes","email":"portalfirmasss@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701004008/tilp5ms6wv9zmyucozfz.jpg","name":"Gaman","open":"23:00","phone":"957902342","web":"http/localhost:3022","wifi":"Condor"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 10:06:52"}
+{"level":"info","message":{"body":{"person":{"email":"user2@gmail.com","id":"","maternalLastName":"materno2","name":"User2","password":"abadquispe957902","paternalLastName":"apellido2","phone":"957926555"},"restaurant":{"address":"San miguel","close":"05:22","district":"condes","email":"MInueva@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701004008/tilp5ms6wv9zmyucozfz.jpg","name":"Mi nueva ","open":"23:00","phone":"957902342","web":"http/localhost:3022","wifi":"Condor255"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 10:12:16"}
+{"level":"info","message":{"body":{"person":{"email":"user2@gmail.com","id":"","maternalLastName":"materno2","name":"User2","password":"abadquispe957902","paternalLastName":"apellido2","phone":"957926555"},"restaurant":{"address":"San miguel","close":"05:22","district":"condes","email":"MInueva@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701004008/tilp5ms6wv9zmyucozfz.jpg","name":"Mi nueva ","open":"23:00","phone":"957902342","web":"http/localhost:3022","wifi":"Condor255"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 10:12:16"}
+{"level":"info","message":{"body":{"person":{"email":"user3@gmail.com","id":"","maternalLastName":"materno3","name":"User3","password":"abadquispe957902","paternalLastName":"apellido3","phone":"957926555"},"restaurant":{"address":"San miguel3","close":"05:22","district":"condes","email":"MInueva@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701004008/tilp5ms6wv9zmyucozfz.jpg","name":"Mi nueva 3","open":"23:00","phone":"957902342","web":"http/localhost:3022","wifi":"Condor255"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 10:15:18"}
+{"level":"info","message":{"body":{"person":{"email":"user3@gmail.com","id":"","maternalLastName":"materno3","name":"User3","password":"abadquispe957902","paternalLastName":"apellido3","phone":"957926555"},"restaurant":{"address":"San miguel3","close":"05:22","district":"condes","email":"MInueva@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701004008/tilp5ms6wv9zmyucozfz.jpg","name":"Mi nueva 3","open":"23:00","phone":"957902342","web":"http/localhost:3022","wifi":"Condor255"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 10:15:18"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 14:38:00"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 14:38:00"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 16:30:11"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 16:30:11"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 16:39:20"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 16:39:20"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 16:39:29"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 16:39:29"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 16:39:35"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 16:39:35"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 17:09:42"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 17:09:42"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:09:46"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:10:50"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:10:53"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:11:07"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:11:30"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123asdasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:12:05"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123asdasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:12:24"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 17:13:24"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 17:13:24"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 17:13:33"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 17:13:33"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 17:13:59"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 17:13:59"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123asdasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:14:03"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 17:14:43"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 17:14:43"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 17:15:36"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 17:15:36"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 17:15:53"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 17:15:53"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123asdasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:15:54"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123asdasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:15:55"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123asdasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:16:26"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123asdasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:16:43"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123asdasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:17:20"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123asdasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:18:27"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123asdasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:20:06"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123asdasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:20:25"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123asdasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:21:01"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123asdasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:21:19"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123asdasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:27:57"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 17:28:33"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 17:28:34"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123asdasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:28:34"}
+{"level":"info","message":{"body":{"email":"test@test.com","password":"123123asdasd"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:28:35"}
+{"level":"info","message":{"body":{"email":"user2@gmail.com","password":""},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:29:03"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-26 17:30:10"}
+{"level":"info","message":{"data":{},"model":"file/add"},"timestamp":"2023-11-26 17:30:11"}
+{"level":"info","message":{"body":{"person":{"email":"taoQuispe@gmial.com","id":"","maternalLastName":"Maquito","name":"Tao","password":"957902342","paternalLastName":"Montero","phone":"957902342"},"restaurant":{"address":"San Lorenzo","close":"21:00","district":"condes","email":"portalfirma@gmail.com","id":"","logo":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1701030614/lnfcbjs13r0vn8bflgha.jpg","name":"GamanStartup","open":"21:00","phone":"957902342","web":"http/localhost:3022","wifi":"Deliis1111"}},"method":"POST","params":"","query":"","url":"/api/comercio/create"},"timestamp":"2023-11-26 17:30:13"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:31:30"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:36:15"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:36:36"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:37:24"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 17:39:03"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 17:39:03"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 17:39:10"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 17:39:10"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 17:39:44"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 17:39:44"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 17:39:54"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 17:39:54"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 17:40:08"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 17:40:09"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:40:09"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 17:42:03"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 17:42:04"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-26 17:42:19"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-26 17:42:20"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:42:20"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 17:44:05"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342jh"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 18:16:05"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342fffff"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-26 18:16:19"}
