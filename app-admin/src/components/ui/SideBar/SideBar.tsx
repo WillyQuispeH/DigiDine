@@ -2,12 +2,13 @@
 import React from "react";
 import styles from "./SideBar.module.scss";
 import { useUi } from "@/store/hooks";
-import { usePathname, useParams } from "next/navigation";
+import { usePathname, useParams, useRouter } from "next/navigation";
 
 import Link from "next/link";
 
 const SideBar = () => {
   const { sideBar, setSideBar } = useUi();
+  const router = useRouter();
 
   const params = useParams();
 
@@ -16,13 +17,18 @@ const SideBar = () => {
     { icon: "add", path: "/add", text: "Agregar" },
     {
       icon: "add_business",
-      path: `${params.comercio}/product`,
+      path: `${params.comercio}/product/`,
       text: "Nuevo producto",
     },
     {
       icon: "library_books",
-      path: `${params.comercio}/category`,
+      path: `${params.comercio}/category/`,
       text: "Nueva Categoria",
+    },
+    {
+      icon: "aod",
+      path: `${params.comercio}/figma/`,
+      text: "Diseñar",
     },
   ];
 
@@ -31,16 +37,17 @@ const SideBar = () => {
       <ul className={styles.ulSideBar}>
         {data.map((item, key) => (
           <li key={key}>
-            <Link
+            <div
               className={styles.linkSideBar}
-              href={item.path}
+              // href={item.path}
               onClick={() => {
                 setSideBar();
+                router.push(item.path);
               }}
             >
               <span className="material-symbols-outlined">{item.icon}</span>
               {item.text}
-            </Link>
+            </div>
           </li>
         ))}
       </ul>

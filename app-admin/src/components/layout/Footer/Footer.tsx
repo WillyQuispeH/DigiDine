@@ -9,11 +9,8 @@ interface IFooter {
   children?: ReactNode;
 }
 const Footer = ({ children }: IFooter) => {
-  const handleOnSave = () => {
-    loginUser();
-  };
+  const handleOnSave = () => {};
 
-  const { loginUser } = useAuth();
   return (
     <div className={styles.footer}>
       <Button
