@@ -1,0 +1,107 @@
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-29 21:23:00"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-29 21:23:01"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-11-29 21:23:06"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-29 21:23:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-29 21:23:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-29 22:45:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-29 22:45:00"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-29 23:19:16"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-29 23:19:17"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-29 23:19:33"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-29 23:19:33"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-29 23:20:24"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-29 23:20:24"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-29 23:20:59"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-29 23:20:59"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-29 23:21:04"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-29 23:21:05"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-29 23:21:20"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-29 23:21:20"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-29 23:21:30"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-29 23:21:30"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-29 23:22:20"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-29 23:22:20"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-29 23:22:33"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-29 23:22:33"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-29 23:22:37"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-29 23:22:37"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-29 23:22:46"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-29 23:22:46"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-29 23:23:00"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-29 23:23:00"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-29 23:23:46"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-29 23:23:46"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-29 23:24:09"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-29 23:24:09"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-29 23:24:14"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-29 23:24:14"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-29 23:24:24"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-29 23:24:24"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:04:59"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:04:59"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:06:54"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:06:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:07:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:07:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:08:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:08:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-30 00:08:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-11-30 00:08:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:08:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:08:55"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-30 00:09:26"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-30 00:09:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:09:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:09:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:10:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:10:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:10:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:10:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:11:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:11:39"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-30 00:12:23"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-30 00:12:23"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-30 00:12:30"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-30 00:12:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:12:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:12:31"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-30 00:13:12"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-30 00:13:12"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:16:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:16:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:19:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:19:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:21:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:21:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:29:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:29:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:33:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:33:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:59:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:59:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:59:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 00:59:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 01:01:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/category/getByComercioId/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-11-30 01:01:14"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-11-30 01:01:58"}
+{"level":"info","message":{"data":{},"model":"file/add"},"timestamp":"2023-11-30 01:01:59"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-30 01:05:34"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-30 01:05:34"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-30 01:05:54"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-30 01:05:54"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-30 01:07:44"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-30 01:07:44"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-30 01:07:55"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-30 01:07:55"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-30 01:09:40"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-30 01:09:40"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-30 01:10:28"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-30 01:10:28"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-30 01:10:52"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-30 01:10:52"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-30 01:11:08"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-30 01:11:09"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-30 01:11:15"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-30 01:11:15"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-11-30 01:11:40"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-11-30 01:11:40"}

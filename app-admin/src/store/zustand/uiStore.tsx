@@ -1,24 +1,19 @@
-import { Icategory } from "@/interfaces/category";
+import { ICategoryListUi, Icategory } from "@/interfaces/category";
 import { IProduct } from "@/interfaces/product";
 import { create } from "zustand";
 
 type uiState = {
   sideBar: boolean;
-  categoryList: Icategory[];
+  categoryList: ICategoryListUi[];
   productList: IProduct[];
   setSideBar: () => void;
-  setCategory: (categoryList: Icategory[]) => void;
+  setCategory: (categoryList: ICategoryListUi[]) => void;
   setProduct: (productList: IProduct[]) => void;
 };
 
 export const uiStore = create<uiState>((set, get) => ({
   sideBar: false,
-  categoryList: [
-    { id: "1", name: "John" },
-    { id: "2", name: "Sarah" },
-    { id: "3", name: "Paul" },
-    { id: "4", name: "Paul" },
-  ],
+  categoryList: [],
   productList: [
     {
       product: {
@@ -85,9 +80,11 @@ export const uiStore = create<uiState>((set, get) => ({
   setSideBar: async () => {
     set((state) => ({ sideBar: !state.sideBar }));
   },
-  setCategory: async (categoryList: Icategory[]) => {
+
+  setCategory: async (categoryList: ICategoryListUi[]) => {
     set((state) => ({ categoryList: categoryList }));
   },
+
   setProduct: async (productList: IProduct[]) => {
     set((state) => ({ productList: productList }));
   },

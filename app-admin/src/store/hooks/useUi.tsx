@@ -3,7 +3,7 @@ import { uiStore } from "../zustand";
 const useUi = () => {
   const {
     sideBar,
-    categoryList,
+    categoryList: categoryListUi,
     productoList: productListUi,
   } = uiStore((state) => ({
     sideBar: state.sideBar,
@@ -11,12 +11,16 @@ const useUi = () => {
     productoList: state.productList,
   }));
 
-  const { setSideBar, setCategory, setProduct: setProductUi } = uiStore();
+  const {
+    setSideBar,
+    setCategory: setCategoryUi,
+    setProduct: setProductUi,
+  } = uiStore();
 
   return {
     setSideBar,
-    setCategory,
-    categoryList,
+    setCategoryUi,
+    categoryListUi,
     productListUi,
     sideBar,
     setProductUi,

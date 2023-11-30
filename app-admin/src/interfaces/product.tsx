@@ -30,3 +30,8 @@ const initData = {
 };
 
 export { initData };
+
+export interface IProductUi {
+  id: string;
+  name: string;
+}

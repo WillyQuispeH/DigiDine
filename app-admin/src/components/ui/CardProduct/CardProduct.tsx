@@ -5,21 +5,22 @@ interface ICardProduct {
   name: string;
   img: string;
   price: number;
-  ingredients: ICardIngredients[];
-}
-interface ICardIngredients {
-  name: string;
+  favorite?: number;
 }
 
-const CardProduct = ({ name, img, price, ingredients }: ICardProduct) => {
+const CardProduct = ({ name, img, price, favorite }: ICardProduct) => {
   return (
     <div className={styles.cardProduct}>
-      <div className={styles.productimg}>
-        <div className={styles.contenImg}>
-          <img src={img} alt="ImgPrd" />
-          <div className={styles.price}>{`$ ${price}`}</div>
+      <div className={styles.contenImg}>
+        <img src={img} alt="ImgPrd" />
+        <div className={styles.favorite}>
+          <span className="material-symbols-outlined">award_star</span>4.5
         </div>
-        <div className={styles.contenName}>{name}</div>
+      </div>
+      <div className={styles.contenName}>{name}</div>
+      <div className={styles.price}>
+        <p>{`$ ${price}`}</p>
+        <span className="material-symbols-outlined">favorite</span>
       </div>
     </div>
   );

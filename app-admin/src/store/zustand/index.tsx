@@ -6,6 +6,7 @@ import { districtStore } from "./districtStore";
 import { authStore } from "./authStore";
 import { comercioStore } from "./comercioStore";
 import { fileStore } from "./fileStore";
+import { categoryStore } from "./categoryStore";
 
 export {
   uiStore,
@@ -16,4 +17,5 @@ export {
   authStore,
   comercioStore,
   fileStore,
+  categoryStore,
 };

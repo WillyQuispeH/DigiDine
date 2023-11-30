@@ -16,10 +16,10 @@ const Product = () => {
       <div className={styles.contenProductItemMovil}>
         {productListUi.map((product: IProduct) => (
           <CardProduct
+            key={product.product.id}
             name={product.product.name}
             img={product.product.img}
             price={product.product.price}
-            ingredients={product.ingredients}
           />
         ))}
       </div>

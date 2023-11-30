@@ -1,42 +1,33 @@
 [
   {
-    "user": {
-      "id": "9392c3b3-4ce9-44ec-9aa1-838c1c6892d6",
-      "person_id": "1027da10-c468-4cac-a6eb-c57d6247c31c"
-    },
-    "person": {
-      "id": "1027da10-c468-4cac-a6eb-c57d6247c31c",
-      "name": "Willy",
-      "email": "Quispeabadquispe@gmail.com",
-      "phone": "957902342",
-      "maternalLastName": "Huamani",
-      "paternalLastName": "Quispe"
-    },
-    "product": [],
-
-    "comercio": {
-      "id": "ae584ccd-b691-4619-aabf-7b15539743ee",
-      "date": "2012-12-12T00:00:00"
-    }
+    "img": null,
+    "name": "Sopas",
+    "products": [
+      {
+        "name": "Cazuela",
+        "product_id": "9836e567-7068-46b5-9d1e-e8662ffa0468"
+      }
+    ],
+    "category_id": "388bd978-69a6-4c2d-913a-8dd6a576f684"
   },
   {
-    "user": {
-      "id": "9392c3b3-4ce9-44ec-9aa1-838c1c6892d6",
-      "person_id": "1027da10-c468-4cac-a6eb-c57d6247c31c"
-    },
-    "person": {
-      "id": "1027da10-c468-4cac-a6eb-c57d6247c31c",
-      "name": "Willy",
-      "email": "Quispeabadquispe@gmail.com",
-      "phone": "957902342",
-      "maternalLastName": "Huamani",
-      "paternalLastName": "Quispe"
-    },
-    "product": [],
-
-    "comercio": {
-      "id": "ae584ccd-b691-4619-aabf-7b15539743ee",
-      "date": "2012-12-12T00:00:00"
-    }
+    "img": null,
+    "name": "Principal",
+    "products": [
+      { "name": "Mayo", "product_id": "5d7f6b0d-c255-453b-b3c9-55299a6d7762" },
+      {
+        "name": "Cazuela",
+        "product_id": "9836e567-7068-46b5-9d1e-e8662ffa0468"
+      }
+    ],
+    "category_id": "5f0197be-2a05-476b-8d5a-d759b025442e"
+  },
+  {
+    "img": null,
+    "name": "Sandwich",
+    "products": [
+      { "name": "Mayo", "product_id": "5d7f6b0d-c255-453b-b3c9-55299a6d7762" }
+    ],
+    "category_id": "ac386470-551e-4ca2-b474-aa5776f863d5"
   }
 ]

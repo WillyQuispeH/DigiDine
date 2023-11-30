@@ -53,6 +53,7 @@ const routeMappings = [
   { path: "/api/user", router: routes.UserRouter },
   { path: "/api/comercio", router: routes.ComercioRouter },
   { path: "/api/file", router: routes.FileRouter },
+  { path: "/api/category", router: routes.CategoryRouter },
 ];
 
 function initializeRoutes(server: Express) {

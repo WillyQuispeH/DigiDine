@@ -6,19 +6,19 @@ import styles from "./Category.module.scss";
 import Header from "../Header";
 
 const Category = () => {
-  const { categoryList, setCategory } = useUi();
+  const { categoryListUi } = useUi();
 
   return (
     <div className={styles.category}>
       <Header img="/comida.jpg" title="Categorias" />
-      {categoryList.map((category) => (
+      {categoryListUi.map((category, key) => (
         <CardCategory
           key={category.id}
           id={category.id}
-          alignItems="flex-end"
+          alignItems="flex-start"
           category={category.name}
-          img="/foto4.jpg"
-          count={5}
+          img={category.img}
+          count={category.products.length}
         />
       ))}
     </div>

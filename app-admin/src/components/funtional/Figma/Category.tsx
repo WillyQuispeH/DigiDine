@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import { DndContext, closestCenter } from "@dnd-kit/core";
 import {
   SortableContext,
@@ -7,45 +7,66 @@ import {
   arrayMove,
 } from "@dnd-kit/sortable";
 
-import { useUi } from "@/store/hooks";
+import { useCategory, useUi } from "@/store/hooks";
 import DDCategory from "@/components/ui/DragAndDrop/DDCategory";
 
 import styles from "./Figma.module.scss";
+import { useParams } from "next/navigation";
 
 const Category = () => {
-  const { setCategory, categoryList } = useUi();
+  const { setCategoryUi, categoryListUi } = useUi();
+  const params = useParams();
+
+  const { getByComercioId, categoryList } = useCategory();
+
+  useEffect(() => {
+    if (categoryListUi.length === 0) {
+      getByComercioId(params.comercio as string);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (categoryList) {
+      setCategoryUi(categoryList);
+    }
+  }, [categoryList]);
 
   const handleDragEnd = (event: any) => {
     const { active, over } = event;
 
     if (active.id !== over.id) {
-      const oldIndex = categoryList.findIndex(
-        (person) => person.id === active.id
+      const oldIndex = categoryListUi.findIndex(
+        (category) => category.id === active.id
       );
-      const newIndex = categoryList.findIndex(
-        (person) => person.id === over.id
+      const newIndex = categoryListUi.findIndex(
+        (category) => category.id === over.id
       );
 
       const updatedCategoryList = arrayMove(
-        [...categoryList],
+        [...categoryListUi],
         oldIndex,
         newIndex
       );
 
-      setCategory(updatedCategoryList);
+      setCategoryUi(updatedCategoryList);
     }
   };
-
   return (
     <div className={styles.contentDragAndDrop}>
       <h1 className={styles.title}>Ordenar categorias</h1>
       <DndContext collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
         <SortableContext
-          items={categoryList}
+          items={categoryListUi}
           strategy={verticalListSortingStrategy}
         >
-          {categoryList.map((user) => (
-            <DDCategory key={user.id} name={user.name} id={user.id} />
+          {categoryListUi.map((category, key) => (
+            <DDCategory
+              key={category.id}
+              img={category.img}
+              products={category.products}
+              name={category.name}
+              id={category.id}
+            />
           ))}
         </SortableContext>
       </DndContext>
