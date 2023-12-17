@@ -1,5 +1,5 @@
 import { uiStore } from "./uiStore";
-import { productStore } from "./product";
+import { productStore } from "./productStore";
 import { personStore } from "./personStore";
 import { restaurantStore } from "./restaurantStore";
 import { districtStore } from "./districtStore";

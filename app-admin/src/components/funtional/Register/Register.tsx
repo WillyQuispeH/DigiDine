@@ -29,7 +29,6 @@ const Register = () => {
             password: person.password,
             redirect: false,
           });
-          console.log(responseNextAuth);
           router.push("/dashboard");
         } catch (error) {
           console.error("Error during sign-in:", error);

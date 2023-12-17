@@ -31,7 +31,7 @@ const CardProduct = ({
       </div>
       <div className={styles.contenInfo}>
         <ul>
-          {ingredients.map((item, key) => (
+          {ingredients?.map((item, key) => (
             <li key={key}>
               {item.name} <span>{`${item.calories} Kcal`}</span>
             </li>

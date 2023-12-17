@@ -1,33 +1,60 @@
 [
   {
-    "img": null,
-    "name": "Sopas",
-    "products": [
-      {
-        "name": "Cazuela",
-        "product_id": "9836e567-7068-46b5-9d1e-e8662ffa0468"
-      }
-    ],
-    "category_id": "388bd978-69a6-4c2d-913a-8dd6a576f684"
+    "id": "62cd052d-2a17-4598-815d-da7e0fd46511",
+    "img": "https://res.cloudinary.com/dzfg8xnxn/image/upload/v1701317902/rlmfwcjwkmvkiedgr9bc.jpg",
+    "name": "Poroto granado",
+    "price": 3000,
+    "favorite": 5,
+    "description": "La cocina de autor es poner tu personalidad en lo que haces y ese sentimiento la convierte en algo distinto.",
+    "ingredients": null
   },
   {
-    "img": null,
-    "name": "Principal",
-    "products": [
-      { "name": "Mayo", "product_id": "5d7f6b0d-c255-453b-b3c9-55299a6d7762" },
-      {
-        "name": "Cazuela",
-        "product_id": "9836e567-7068-46b5-9d1e-e8662ffa0468"
-      }
-    ],
-    "category_id": "5f0197be-2a05-476b-8d5a-d759b025442e"
+    "id": "b6857c73-619a-4245-94c4-1a104a2f0323",
+    "img": "https://res.cloudinary.com/dzfg8xnxn/image/upload/v1701317902/rlmfwcjwkmvkiedgr9bc.jpg",
+    "name": "Cazuela de vacuno",
+    "price": 6500,
+    "favorite": 525,
+    "description": "La cocina de autor es poner tu personalidad en lo que haces y ese sentimiento la convierte en algo distinto.",
+    "ingredients": null
   },
   {
-    "img": null,
-    "name": "Sandwich",
-    "products": [
-      { "name": "Mayo", "product_id": "5d7f6b0d-c255-453b-b3c9-55299a6d7762" }
-    ],
-    "category_id": "ac386470-551e-4ca2-b474-aa5776f863d5"
+    "id": "5d7f6b0d-c255-453b-b3c9-55299a6d7762",
+    "img": "https://res.cloudinary.com/dzfg8xnxn/image/upload/v1701317902/rlmfwcjwkmvkiedgr9bc.jpg",
+    "name": "Mayo",
+    "price": 5000,
+    "favorite": 55,
+    "description": "La cocina de autor es poner tu personalidad en lo que haces y ese sentimiento la convierte en algo distinto.",
+    "ingredients": [
+      { "id": "10de577d-1535-4246-8074-356c0dfecb02", "name": "sal" },
+      { "id": "f73a476d-4823-41d0-81af-b0d10b1c1ecf", "name": "aceite" },
+      { "id": "8e36d88b-21da-44a8-8b7b-ee1bf2dbc67e", "name": "limon" },
+      { "id": "0be215d0-4802-47d6-a2ad-deab1f69083e", "name": "ajo" }
+    ]
+  },
+  {
+    "id": "9836e567-7068-46b5-9d1e-e8662ffa0468",
+    "img": "https://res.cloudinary.com/dzfg8xnxn/image/upload/v1701317902/rlmfwcjwkmvkiedgr9bc.jpg",
+    "name": "Cazuela",
+    "price": 5000,
+    "favorite": 855,
+    "description": "La cocina de autor es poner tu personalidad en lo que haces y ese sentimiento la convierte en algo distinto.",
+    "ingredients": [
+      {
+        "id": "a937e4b8-bc00-415c-a1bd-de5943004448",
+        "name": "Carne de vacuno"
+      },
+      { "id": "aed812b6-f0d4-4e5a-a913-b729787b227c", "name": "Poroto verde" },
+      { "id": "2ebca95f-ed6d-4638-9fa5-4f2aae6b6d7b", "name": "Zapallo" },
+      { "id": "d2a3ad70-15ab-4ded-8bf5-551a6ee1f59f", "name": "choclo" }
+    ]
+  },
+  {
+    "id": "de46c746-1605-4e5b-badf-c78b8573778e",
+    "img": "https://res.cloudinary.com/dzfg8xnxn/image/upload/v1701317902/rlmfwcjwkmvkiedgr9bc.jpg",
+    "name": "Chorrilana",
+    "price": 5000,
+    "favorite": 55,
+    "description": "La cocina de autor es poner tu personalidad en lo que haces y ese sentimiento la convierte en algo distinto.",
+    "ingredients": null
   }
 ]

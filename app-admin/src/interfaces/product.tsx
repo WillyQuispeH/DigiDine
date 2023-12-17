@@ -1,32 +1,26 @@
 export interface IProduct {
-  product: {
-    id: string;
-    name: string;
-    img: string;
-    price: number;
-  };
-  ingredients: IIngredient[];
-  category: ICategory[];
-}
-
-interface IIngredient {
+  id: string;
   name: string;
+  img: string;
+  price: number;
+  favorite: number;
+  description: string;
+  ingredients: IIngredient[];
 }
 
-interface ICategory {
+export interface IIngredient {
   id: string;
   name: string;
 }
 
 const initData = {
-  product: {
-    id: "",
-    name: "",
-    img: "",
-    price: 0,
-  },
+  id: "",
+  name: "",
+  img: "",
+  price: 0,
+  favorite: 0,
+  description: "",
   ingredients: [],
-  category: [],
 };
 
 export { initData };

@@ -30,7 +30,7 @@ const Product = () => {
 
     setProduct({
       ...product,
-      product: { ...product.product, [e.target.name]: e.target.value },
+      [e.target.name]: e.target.value,
     });
   };
 
@@ -45,7 +45,7 @@ const Product = () => {
 
     setProduct({
       ...product,
-      product: { ...product.product, price: parseInt(e.target.value) },
+      price: parseInt(e.target.value),
     });
   };
 
@@ -53,7 +53,6 @@ const Product = () => {
     setIsFormValid(validateForm(form, ["name", "description", "price"]));
   }, [form]);
 
-  console.log(product);
   return (
     <Form title="Productos" isValid={isFormValid}>
       <Column gap="5px">

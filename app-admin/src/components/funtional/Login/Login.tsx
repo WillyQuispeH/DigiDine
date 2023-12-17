@@ -1,14 +1,13 @@
 "use client";
 import React, { useState } from "react";
-import { signIn, useSession } from "next-auth/react";
+import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
 import styles from "./Login.module.scss";
 import Button from "@/components/ui/Button";
 import useAuth from "@/store/hooks/useAuth";
 import Input from "@/components/ui/Input";
-import { Column, Row } from "@/components/layout/Generic";
-import LogoName from "@/components/ui/LogoName";
+import { Column} from "@/components/layout/Generic";
 
 const Login = () => {
   const [errors, setErrors] = useState<string[]>([]);
@@ -82,7 +81,7 @@ const Login = () => {
         {errors.length > 0 && (
           <div className="alert alert-danger mt-2">
             <ul className="mb-0">
-              {errors.map((error) => (
+              {errors?.map((error) => (
                 <li key={error}>{error}</li>
               ))}
             </ul>

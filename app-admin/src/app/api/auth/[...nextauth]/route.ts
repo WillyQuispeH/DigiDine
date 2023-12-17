@@ -21,7 +21,6 @@ const handler = NextAuth({
         });
 
         const user = await res.json();
-        console.log(user);
 
         if (!user.id || !user.person_id || !user.email) throw user;
         return user;

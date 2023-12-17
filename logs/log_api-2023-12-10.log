@@ -1,0 +1,218 @@
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 19:20:41"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 19:20:41"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:11:05"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:11:05"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:16:45"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:16:45"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:16:55"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:16:55"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:17:31"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:17:31"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:17:38"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:17:38"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:17:58"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:17:58"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:18:03"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:18:03"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:18:08"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:18:08"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:18:11"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:18:11"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:18:48"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:18:48"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:19:47"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:19:47"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:20:04"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:20:04"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:22:11"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:22:12"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:22:14"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:22:15"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:22:38"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:22:38"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:22:44"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:22:44"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:22:48"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:22:48"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:23:14"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:23:14"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:24:26"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:24:26"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:24:39"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:24:40"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:24:44"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:24:44"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:24:49"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:24:49"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:24:59"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:24:59"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:25:06"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:25:06"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:25:22"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:25:22"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:25:51"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:25:51"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:26:07"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:26:07"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:26:19"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:26:19"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:26:23"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:26:23"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-09 20:26:31"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-09 20:26:31"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-12-09 20:31:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-12-09 20:31:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-12-09 20:31:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/b9c59574-4b51-46a8-b0b9-720a7f03d21b"},"timestamp":"2023-12-09 20:32:02"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 20:32:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/b9c59574-4b51-46a8-b0b9-720a7f03d21b"},"timestamp":"2023-12-09 20:32:02"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 20:32:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-12-09 20:32:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-12-09 20:32:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 20:32:09"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 20:32:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 20:32:09"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 20:32:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 20:34:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 20:34:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 20:34:27"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 20:34:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 20:34:27"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 20:34:27"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-12-09 20:36:32"}
+{"level":"info","message":{"data":{},"model":"file/add"},"timestamp":"2023-12-09 20:36:33"}
+{"level":"info","message":{"body":{"classe":"ofert","comercio_id":"ae584ccd-b691-4619-aabf-7b15539743ee","description":"Mi description","img":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1702164992/vjbbilo2rnpl7jv09bbo.jpg","name":"Solo hoy","order":2},"method":"POST","params":"","query":"","url":"/api/category/create"},"timestamp":"2023-12-09 20:36:37"}
+{"level":"info","message":{"data":{"classe":"ofert","comercio_id":"ae584ccd-b691-4619-aabf-7b15539743ee","description":"Mi description","img":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1702164992/vjbbilo2rnpl7jv09bbo.jpg","name":"Solo hoy","order":2},"model":"category/create"},"timestamp":"2023-12-09 20:36:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 20:36:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 20:36:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 20:37:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 20:37:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 20:37:21"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 20:37:21"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 20:37:22"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 20:37:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 20:37:22"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 20:37:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 20:37:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 20:37:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 20:37:35"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 20:37:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 20:37:35"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 20:37:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 20:38:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 20:38:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 20:38:54"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 20:38:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 20:38:54"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 20:38:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 20:38:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 20:38:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 20:38:58"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 20:38:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 20:38:59"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 20:38:59"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-12-09 20:49:46"}
+{"level":"info","message":{"data":{},"model":"file/add"},"timestamp":"2023-12-09 20:49:47"}
+{"level":"info","message":{"body":{"classe":"original","comercio_id":"ae584ccd-b691-4619-aabf-7b15539743ee","description":"Description12","img":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1702165786/b9ki3huu3okhbeg2aqbk.jpg","name":"mañana y hoy","order":2},"method":"POST","params":"","query":"","url":"/api/category/create"},"timestamp":"2023-12-09 20:50:16"}
+{"level":"info","message":{"data":{"classe":"original","comercio_id":"ae584ccd-b691-4619-aabf-7b15539743ee","description":"Description12","img":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1702165786/b9ki3huu3okhbeg2aqbk.jpg","name":"mañana y hoy","order":2},"model":"category/create"},"timestamp":"2023-12-09 20:50:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 20:52:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 20:52:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 20:52:20"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 20:52:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 20:52:20"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 20:52:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 20:53:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 20:53:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 20:53:58"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 20:53:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 20:53:58"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 20:53:58"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-12-09 20:55:42"}
+{"level":"info","message":{"data":{},"model":"file/add"},"timestamp":"2023-12-09 20:55:43"}
+{"level":"info","message":{"body":{"classe":"ofert","comercio_id":"ae584ccd-b691-4619-aabf-7b15539743ee","description":"categoryre2","img":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1702166142/lxufzlamto4agwo3jfgr.jpg","name":"Category12","order":2},"method":"POST","params":"","query":"","url":"/api/category/create"},"timestamp":"2023-12-09 20:55:48"}
+{"level":"info","message":{"data":{"classe":"ofert","comercio_id":"ae584ccd-b691-4619-aabf-7b15539743ee","description":"categoryre2","img":"http://res.cloudinary.com/dzfg8xnxn/image/upload/v1702166142/lxufzlamto4agwo3jfgr.jpg","name":"Category12","order":2},"model":"category/create"},"timestamp":"2023-12-09 20:55:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 21:04:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 21:04:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 21:04:03"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 21:04:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 21:04:03"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 21:04:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 21:04:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-09 21:04:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 21:04:31"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 21:04:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-09 21:04:31"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-09 21:04:31"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:19:29"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:19:29"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-12-10 00:20:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-12-10 00:20:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-12-10 00:20:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-10 00:20:48"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-10 00:20:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-10 00:20:48"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-10 00:20:48"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:22:15"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:22:16"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:24:47"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:24:58"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:24:58"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:25:05"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:25:05"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:25:28"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:25:28"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:25:52"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:25:56"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:25:56"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:26:16"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:26:16"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:26:20"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:26:20"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:26:41"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:26:41"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:26:50"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:26:50"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:26:58"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:26:58"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:27:02"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:27:02"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:27:24"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:27:24"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:27:30"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:27:30"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:27:38"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:27:38"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:27:43"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:27:43"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:28:05"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:28:05"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:28:14"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:28:14"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/api/category/delete/9b8af404-c0a1-42fc-aa8d-8a557fd859f4"},"timestamp":"2023-12-10 00:31:55"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/api/category/delete/10f5188c-85d1-472d-93c2-e6ad098fb5cf"},"timestamp":"2023-12-10 00:32:14"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:34:15"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:34:15"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:34:22"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:34:22"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:34:41"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:34:41"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:34:45"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:34:45"}
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-10 00:35:00"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-10 00:35:00"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/api/category/delete/47c2b92d-c48f-4daa-b529-876a0403b3b2"},"timestamp":"2023-12-10 00:35:14"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/api/category/delete/4cc4570f-b059-4f01-8c8e-7790ae2e949e"},"timestamp":"2023-12-10 00:35:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-10 00:43:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-10 00:43:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-10 00:43:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-10 00:43:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-10 00:43:38"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-10 00:43:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-10 00:43:38"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-10 00:43:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-10 01:13:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2023-12-10 01:13:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-10 01:13:53"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-10 01:13:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2023-12-10 01:13:53"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2023-12-10 01:13:53"}

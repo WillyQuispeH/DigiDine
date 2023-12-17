@@ -10,5 +10,11 @@ CategoryRouter.get(
   CategoryController.getByIdComercioId
 );
 CategoryRouter.post("/updateImg", auth, CategoryController.updateImg);
+CategoryRouter.post("/create", auth, CategoryController.create);
+CategoryRouter.delete(
+  "/delete/:category_id",
+  auth,
+  CategoryController.deleteById
+);
 
 export default CategoryRouter;

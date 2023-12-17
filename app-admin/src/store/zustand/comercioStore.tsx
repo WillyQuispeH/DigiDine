@@ -12,7 +12,9 @@ type comercioState = {
   error: string;
   create: (person: IPerson, restaurant: IRestaurant) => void;
   getByPersonId: (person_id: string) => void;
+  getById: (comercio_id: string) => void;
   setComercio: (comercio: IComercio) => void;
+  updateCategoryProduct: (comercio: IComercio) => void;
 };
 
 const store: StateCreator<comercioState> = (set) => ({
@@ -62,7 +64,53 @@ const store: StateCreator<comercioState> = (set) => ({
       set((state) => ({
         ...state,
         loading: false,
-        list: data,
+        list: data || [],
+      }));
+    } catch (error) {
+      set((state) => ({
+        ...state,
+        loading: false,
+        error: (error as Error).message,
+      }));
+    }
+  },
+  getById: async (comercio_id: string) => {
+    try {
+      set((state) => ({ ...state, loading: true }));
+
+      const { data: response } = await apiInstance.get(
+        "/comercio/getById/" + comercio_id
+      );
+
+      const { data } = response;
+      set((state) => ({
+        ...state,
+        loading: false,
+        comercio: data || initDataComercio,
+      }));
+    } catch (error) {
+      set((state) => ({
+        ...state,
+        loading: false,
+        error: (error as Error).message,
+      }));
+    }
+  },
+
+  updateCategoryProduct: async (comercio: IComercio) => {
+    try {
+      set((state) => ({ ...state, loading: true }));
+
+      const { data: response } = await apiInstance.post(
+        "/comercio/updateCategoryProduct",
+        { comercio }
+      );
+
+      const { data } = response;
+      set((state) => ({
+        ...state,
+        loading: false,
+        // comercio: data || initDataComercio,
       }));
     } catch (error) {
       set((state) => ({
@@ -75,7 +123,7 @@ const store: StateCreator<comercioState> = (set) => ({
   setComercio: async (comercio: IComercio) => {
     set((state) => ({
       ...state,
-      comercio: comercio,
+      comercio: comercio || initDataComercio,
     }));
   },
 });

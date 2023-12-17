@@ -5,8 +5,7 @@ import ImgCropper from "@/components/ui/ImgCropper";
 import useProduct from "@/store/hooks/useProduct";
 
 const Photo = () => {
-  const { product: productData } = useProduct();
-  const { product } = productData;
+  const { product } = useProduct();
   return (
     <Form title="Foto del producto" isValid={product.img ? true : false}>
       <ImgCropper />

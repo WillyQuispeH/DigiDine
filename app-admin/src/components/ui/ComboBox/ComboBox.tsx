@@ -31,7 +31,7 @@ const ComboBox = ({
     <div className={styles[isValid]} style={{ width }}>
       <label>{label}</label>
       <select disabled={disabled} name={name} value={value} onChange={onChange}>
-        {data.map((item: any, idx: number) => (
+        {data?.map((item: any, idx: number) => (
           <option key={idx} value={item[valueName]}>
             {item[textName]}
           </option>

@@ -9,7 +9,7 @@ export const createImage = (url: string) =>
 export default async function getCroppedImg(
   imageSrc: string,
   crop: { x: number; y: number; width: number; height: number }
-): Promise<string | null> {
+): Promise<Blob | null> {
   const image = await createImage(imageSrc);
   const canvas = document.createElement("canvas");
   const ctx = canvas.getContext("2d");
@@ -50,13 +50,13 @@ export default async function getCroppedImg(
   );
 
   // As a blob
-  return new Promise<string>((resolve, reject) => {
-    croppedCanvas.toBlob((file) => {
-      if (!file) {
+  return new Promise<Blob>((resolve, reject) => {
+    croppedCanvas.toBlob((blob) => {
+      if (!blob) {
         reject(new Error("Failed to create blob from canvas."));
         return;
       }
-      resolve(URL.createObjectURL(file));
+      resolve(blob);
     }, "image/jpeg");
   });
 }

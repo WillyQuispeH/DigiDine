@@ -31,7 +31,7 @@ const TableComercio = () => {
   return (
     <div className={styles.contenMainComercials}>
       <div className={styles.tableComercials}>
-        {listComercio.map((comercio: IComercio) => (
+        {listComercio?.map((comercio: IComercio) => (
           <div key={comercio.comercio.id}>
             <h1>{comercio.restaurant.name}</h1>
             <h1>{comercio.comercio.id}</h1>

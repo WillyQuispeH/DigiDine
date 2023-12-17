@@ -93,5 +93,20 @@ const getByPersonId = async (person_id: string) => {
     return { success: false, data: null, error: (e as Error).message };
   }
 };
+const getById = async (comercio_id: string) => {
+  try {
+    const resultDataBase = await pool.query(
+      `SELECT app.fn_comercio_get_by_id($1)::jsonb AS "data";`,
+      [comercio_id]
+    );
+    return {
+      success: true,
+      data: resultDataBase.rows[0].data || null,
+      error: null,
+    };
+  } catch (e) {
+    return { success: false, data: null, error: (e as Error).message };
+  }
+};
 
-export { create, getByPersonId };
+export { create, getByPersonId, getById };

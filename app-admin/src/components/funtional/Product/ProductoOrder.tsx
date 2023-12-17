@@ -14,7 +14,7 @@ const ProductOrder = () => {
       <Product />
       <Column gap="25px">
         <Ingredients />
-        <Category />
+        {/* <Category /> */}
       </Column>
       <Photo />
     </div>

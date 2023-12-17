@@ -1,0 +1,29 @@
+.btnIconText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  min-height: 30px;
+  border-radius: 7px;
+  font-size: 10px;
+  font-weight: 500;
+  gap: 3px;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: transparent;
+
+  color: white;
+
+  &:hover {
+    border: 1px solid #60b2e4;
+  }
+
+  span {
+    font-size: 20px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+}

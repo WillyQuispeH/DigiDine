@@ -7,12 +7,13 @@ const useFile = () => {
     file: state.file,
   }));
 
-  const { add: addFile } = fileStore();
+  const { add: addFile, reset: resetFile } = fileStore();
 
   return {
     file,
     loadingFile,
     addFile,
+    resetFile,
   };
 };
 

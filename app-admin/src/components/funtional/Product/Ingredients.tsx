@@ -12,12 +12,12 @@ import styles from "./ProductOrder.module.scss";
 import useProduct from "@/store/hooks/useProduct";
 
 const initData: Record<string, { value: string; isValid: boolean }> = {
+  id: { value: "", isValid: true },
   name: { value: "", isValid: true },
-  calories: { value: "", isValid: true },
 };
 interface IIngredients {
+  id: string;
   name: string;
-  calories: number;
 }
 const Ingredients = () => {
   const [form, setForm] = useState(initData);
@@ -58,9 +58,10 @@ const Ingredients = () => {
 
   const handleAddIngredients = () => {
     const newIngredient: IIngredients = {
+      id: "",
       name: form.name.value,
-      calories: parseInt(form.calories.value),
     };
+
     setForm(initData);
     setIngredients((prevIngredients) => [...prevIngredients, newIngredient]);
 
@@ -71,32 +72,22 @@ const Ingredients = () => {
   };
 
   useEffect(() => {
-    setIsFormValid(validateForm(form, ["name", "calories"]));
+    setIsFormValid(validateForm(form, ["name"]));
   }, [form]);
 
   return (
     <Form title="Ingredientes" isValid={ingredients?.length !== 0}>
       <Column gap="5px">
-        <Input
-          onChange={handleOnchange}
-          value={form.name.value}
-          type="text"
-          label="Nombre"
-          width="305px"
-          name="name"
-          isValid={form.name.isValid}
-        />
         <Row gap="5px">
           <Input
-            onChange={handleOnchangePrice}
-            value={form.calories.value}
+            onChange={handleOnchange}
+            value={form.name.value}
             type="text"
-            label="Calorias"
-            width="250px"
-            name="calories"
-            isValid={form.calories.isValid}
+            label="Nombre"
+            width="255px"
+            name="name"
+            isValid={form.name.isValid}
           />
-
           <ButtonIcon
             onClick={handleAddIngredients}
             width="50px"
@@ -110,7 +101,6 @@ const Ingredients = () => {
             <CardIngredients
               key={key}
               onClick={() => handleDeleteIngredients(item.name)}
-              calories={item.calories}
               name={item.name}
               width="305px"
             />

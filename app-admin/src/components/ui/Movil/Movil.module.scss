@@ -14,12 +14,13 @@
   height: 100%;
   min-height: 65vh;
   border-radius: 30px;
-  position: relative;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   overflow: auto;
-  background-color: #0C0F14;
+  background-color: #0c0f14;
+  // background-color: white;
+
   &::-webkit-scrollbar {
     width: 0px;
   }
@@ -85,6 +86,7 @@
   box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
   border-radius: 0 0 30px 30px;
 }
+
 .itemMovilNav {
   display: flex;
   align-items: center;

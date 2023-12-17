@@ -15,12 +15,17 @@ const useComercio = () => {
     create: createComercio,
     getByPersonId,
     setComercio,
+    getById: getByIdComercio,
+    updateCategoryProduct,
   } = comercioStore();
 
   return {
     setComercio,
     createComercio,
     getByPersonId,
+    getByIdComercio,
+    updateCategoryProduct,
+
     comercio,
     loadingComercio,
     listComercio,

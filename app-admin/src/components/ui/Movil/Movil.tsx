@@ -5,9 +5,12 @@ import styles from "./Movil.module.scss";
 import Category from "./Category";
 import Product from "./Product";
 import Shared from "./Shared";
+import { useUi } from "@/store/hooks";
+import ProItem from "./ProItem";
 
 const Movil = () => {
-  const [stage, setStage] = useState<string>("product");
+  const { setStageUi, stageUi } = useUi();
+
   const horaActual = new Date().toLocaleTimeString();
   return (
     <div className={styles.movil}>
@@ -19,16 +22,19 @@ const Movil = () => {
           <span className="material-symbols-outlined">wifi</span>
         </span>
       </div>
+
       <div className={styles.contenVisual}>
-        {stage === "product" && <Product />}
-        {stage === "category" && <Category />}
-        {stage === "shared" && <Shared />}
+        {stageUi === "product" && <Product />}
+        {stageUi === "category" && <Category />}
+        {stageUi === "shared" && <Shared />}
+        {stageUi === "proItem" && <ProItem />}
       </div>
+
       <div className={styles.contentNavMobil}>
         <div
           className={styles.itemMovilNav}
           onClick={() => {
-            setStage("product");
+            setStageUi("product");
           }}
         >
           <span className="material-symbols-outlined">restaurant_menu</span>
@@ -37,7 +43,7 @@ const Movil = () => {
         <div
           className={styles.itemMovilNav}
           onClick={() => {
-            setStage("category");
+            setStageUi("category");
           }}
         >
           <span className="material-symbols-outlined">menu_book</span>
@@ -46,7 +52,7 @@ const Movil = () => {
         <div
           className={styles.itemMovilNav}
           onClick={() => {
-            setStage("shared");
+            setStageUi("shared");
           }}
         >
           <span className="material-symbols-outlined">qr_code_scanner</span>

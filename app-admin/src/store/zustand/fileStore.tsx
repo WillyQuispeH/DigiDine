@@ -5,12 +5,14 @@ import { devtools, persist } from "zustand/middleware";
 type fileState = {
   file: { url: string; public_id: string };
   add: (formData: FormData) => void;
+  reset: () => void;
   loading: boolean;
 };
 
 const store: StateCreator<fileState> = (set) => ({
   file: { url: "", public_id: "" },
   loading: false,
+  
   add: async (formData: FormData) => {
     set((state) => ({ ...state, loading: true }));
 
@@ -19,6 +21,14 @@ const store: StateCreator<fileState> = (set) => ({
     });
 
     set((state) => ({ ...state, loading: false, file: data.data }));
+  },
+
+  reset: async () => {
+    set((state) => ({
+      ...state,
+      loading: false,
+      file: { url: "", public_id: "" },
+    }));
   },
 });
 

@@ -1,6 +1,7 @@
 import { initData } from "./person";
 import { IProduct } from "./product";
 import { initDataRestaurant } from "./restaurant";
+import { ICategory } from "./category";
 
 export interface IComercio {
   comercio: {
@@ -36,7 +37,7 @@ export interface IComercio {
     logo: string;
   };
 
-  products: IProduct[];
+  category: ICategory[];
 }
 
 const initDataComercio = {
@@ -54,7 +55,7 @@ const initDataComercio = {
 
   restaurant: initDataRestaurant,
 
-  products: [],
+  category: [],
 };
 
 export { initDataComercio };

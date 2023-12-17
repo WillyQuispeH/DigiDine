@@ -10,5 +10,12 @@ ComercioRouter.get(
   auth,
   ComercioController.getByPersonId
 );
+ComercioRouter.get("/getById/:comercio_id", auth, ComercioController.getById);
+
+ComercioRouter.post(
+  "/updateCategoryProduct",
+  auth,
+  ComercioController.updateCategoryProduct
+);
 
 export default ComercioRouter;

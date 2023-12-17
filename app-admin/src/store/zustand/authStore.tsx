@@ -1,9 +1,6 @@
-import { IDistrict } from "@/interfaces/district";
-import { IPerson, initData } from "@/interfaces/person";
-import { IRestaurant, initDataRestaurant } from "@/interfaces/restaurant";
 import { IUser } from "@/interfaces/user";
 import { StateCreator, create } from "zustand";
-import { devtools, persist } from "zustand/middleware";
+import { persist } from "zustand/middleware";
 import apiInstance from "@/util/api";
 
 type authState = {
@@ -28,8 +25,6 @@ const storeAuth: StateCreator<authState> = (set) => ({
         email,
         password,
       });
-
-      console.log(response);
 
       set((state) => ({ ...state, loading: false, user: response.data }));
     } catch (error) {

@@ -5,7 +5,7 @@ import styles from "./Figma.module.scss";
 const Shared = () => {
   return (
     <div className={styles.contentDragAndDrop}>
-      <h1 className={styles.title}>Ordenar categorias</h1>
+      <h1 className={styles.title}>Shared</h1>
     </div>
   );
 };

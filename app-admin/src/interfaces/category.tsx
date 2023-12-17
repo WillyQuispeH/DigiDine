@@ -1,14 +1,23 @@
-import { IProductUi } from "./product";
+import { IProduct } from "./product";
 
-export interface Icategory {
+export interface ICategory {
   id: string;
   name: string;
   img: string;
+  classe: string;
+  description: string;
+  products: IProduct[];
+  order: number;
 }
 
-export interface ICategoryListUi {
-  products: IProductUi[];
-  id: string;
-  name: string;
-  img: string;
-}
+const initDataCatgory = {
+  id: "",
+  name: "",
+  img: "",
+  classe: "",
+  description: "",
+  products: [],
+  order: 0,
+};
+
+export { initDataCatgory };

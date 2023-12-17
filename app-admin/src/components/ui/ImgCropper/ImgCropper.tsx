@@ -6,6 +6,8 @@ import getCroppedImg from "./cropImg";
 import useProduct from "@/store/hooks/useProduct";
 import { IProduct } from "@/interfaces/product";
 import ButtonIcon from "../ButtonIcon";
+import { useFile } from "@/store/hooks";
+import { Column } from "@/components/layout/Generic";
 
 interface IcropperPixels {
   x: number;
@@ -25,8 +27,10 @@ const ImgCropper = () => {
     height: 100,
   });
   const [croppedImage, setCroppedImage] = useState<string | null>(null);
+  const [blodImg, setBlodImg] = useState<Blob | null>(null);
 
   const { setProduct, product } = useProduct();
+  const { addFile, file } = useFile();
 
   const onCropComplete = React.useCallback(
     (croppedArea: any, croppedAreaPixels: IcropperPixels) => {
@@ -49,25 +53,38 @@ const ImgCropper = () => {
     }
   };
 
-  const onSendToServer = async () => {
+  const croppedImagePro = async () => {
     if (image) {
       try {
         const croppedImage = await getCroppedImg(image, croppedAreaPixels);
-        console.log("Imagen recortada:", croppedImage);
-        setCroppedImage(croppedImage);
-        setProduct({
-          ...product,
-          product: { ...product.product, img: croppedImage || "" },
-        });
+
+        if (croppedImage) {
+          setBlodImg(croppedImage);
+          setCroppedImage(URL.createObjectURL(croppedImage));
+        }
       } catch (error: any) {
-        console.error(
-          "Error al recortar la imagen",
-          error
-        );
+        console.error("Error al recortar la imagen", error);
         console.error("Error details:", error.message, error.stack);
       }
     }
   };
+
+  const uploadServer = () => {
+    if (blodImg) {
+      const formData = new FormData();
+      formData.append("file", blodImg, "miImgen");
+      addFile(formData);
+    }
+  };
+
+  useEffect(() => {
+    if (file.public_id) {
+      setProduct({
+        ...product,
+        img: file.url,
+      });
+    }
+  }, [file]);
 
   useEffect(() => {
     const reactEasyCropContainers = document.getElementsByClassName(
@@ -84,20 +101,28 @@ const ImgCropper = () => {
     <div className={styles.imgCropper}>
       <div className={styles.contenentControlsCropper}>
         <div className={styles.contenControls}>
-          <label htmlFor="fileCropper">
-            <span className="material-symbols-outlined">cloud_upload</span>
-          </label>
-          <input
-            type="file"
-            id="fileCropper"
-            onChange={onFileChange}
-            accept="image/*"
-          />
+          <Column gap="5px">
+            <label htmlFor="fileCropper">
+              <span className="material-symbols-outlined">file_present</span>
+            </label>
+            <input
+              type="file"
+              id="fileCropper"
+              onChange={onFileChange}
+              accept="image/*"
+            />
+            <ButtonIcon
+              onClick={croppedImagePro}
+              width="40px"
+              height="40px"
+              icon="outbox_alt"
+            />
+          </Column>
           <ButtonIcon
-            onClick={onSendToServer}
+            onClick={uploadServer}
             width="40px"
             height="40px"
-            icon="outbox_alt"
+            icon="cloud_upload"
           />
         </div>
         <div className={styles.contenMainCrop}>

@@ -36,7 +36,6 @@ const add = async (req: Request, res: Response) => {
 
     res.status(200).json({ success: true, data: dataToSend, error: null });
   } catch (e: any) {
-    console.log(e);
     res.status(500).json({ success: false, data: null, error: e as Error });
   }
 };
@@ -52,7 +51,6 @@ const remove = async (req: any, res: any) => {
     });
     res.status(200).json({ success: true, data: result, error: null });
   } catch (e: any) {
-    console.log(e);
     res.status(500).json({ success: false, data: null, error: e as Error });
   }
 };

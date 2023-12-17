@@ -31,7 +31,7 @@ const Shared = () => {
       <div className={styles.contenQrSocial}>
         <Qr />
         <div className={styles.sharedSocial}>
-          {dataSocial.map((item, key) => (
+          {dataSocial?.map((item, key) => (
             <CardSocial key={key} img={item.img} name={item.name} />
           ))}
         </div>

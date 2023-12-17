@@ -175,7 +175,7 @@ const Welcome = () => {
     <div className={styles.welcome}>
       <Title title="En nuestro menú, encontrarás sándwiches tan irresistibles que nunca podrás volver a una relación seria con una ensalada." />
       <div className={styles.contentCardProduct}>
-        {data.map((item, key) => (
+        {data?.map((item, key) => (
           <CardProduct
             key={key}
             name={item.name}

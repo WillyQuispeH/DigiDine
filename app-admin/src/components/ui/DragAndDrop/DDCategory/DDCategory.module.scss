@@ -1,18 +1,87 @@
-.ddcategory {
-  width: 90%;
-  height: 60px;
+.ddcategoryMain {
+  width: 100%;
+  height: 130px;
+  min-height: 130px;
+  min-width: 338px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.buttonDropMove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  min-height: 30px;
+  border-radius: 7px;
+  font-size: 10px;
+  font-weight: 500;
+  gap: 3px;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: transparent;
+
+  color: white;
+
+  &:hover {
+    border: 1px solid #60b2e4;
+  }
+
+  span {
+    font-size: 20px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+}
+
+.ddcategory {
+  width: 95%;
+  height: 130px;
+  min-height: 130px;
+  min-width: 338px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background-color: #243343;
   border-radius: 10px;
-  padding: 0 10px;
+  padding: 5px 10px;
+  margin-top: 8px;
   color: #fff;
+  overflow-y: hidden;
+  overflow-x: auto;
+  gap: 5px;
   cursor: pointer;
-  //   margin-bottom: 5px;
+}
+
+.ddcategoryOfert {
+  width: 95%;
+  height: 130px;
+  min-height: 130px;
+  min-width: 338px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #432424;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-top: 8px;
+  color: #fff;
+  overflow-y: hidden;
+  overflow-x: auto;
+  gap: 5px;
+  cursor: pointer;
 }
 
 .contenInput {
+  display: flex;
+  gap: 2px;
   input {
     display: none;
   }
@@ -20,18 +89,76 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    width: 50px;
-    height: 40px;
-    min-height: 40px;
+    width: 30px;
+    height: 30px;
+    min-height: 30px;
     border-radius: 7px;
-    background-color: #60b2e4;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 500;
+    gap: 3px;
     cursor: pointer;
+    transition: all 0.5s;
+
+    &:hover {
+      border: 1px solid #60b2e4;
+    }
     span {
       font-size: 20px;
       height: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
+}
+
+.contenTitle {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenProductDD {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  width: 100%;
+  height: 80px;
+  min-height: 80px;
+}
+
+.typeCategory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 20px;
+  min-height: 20px;
+  border-radius: 50px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #007bff;
+  background-color: #c6e9ff;
+}
+
+.typeCategoryOfert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 20px;
+  min-height: 20px;
+  border-radius: 50px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #7e0000;
+  background-color: #ff5353;
+}
+
+.contenVisualCategory {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
