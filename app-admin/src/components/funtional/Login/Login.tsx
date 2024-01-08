@@ -7,7 +7,7 @@ import styles from "./Login.module.scss";
 import Button from "@/components/ui/Button";
 import useAuth from "@/store/hooks/useAuth";
 import Input from "@/components/ui/Input";
-import { Column} from "@/components/layout/Generic";
+import { Column } from "@/components/layout/Generic";
 
 const Login = () => {
   const [errors, setErrors] = useState<string[]>([]);
@@ -35,12 +35,8 @@ const Login = () => {
   };
   return (
     <div className={styles.login}>
-      <div className={styles.contenImg}>
-        <img src="./foto4.jpg" alt="" />
-      </div>
       <div className={styles.contenLogin}>
-        <img className={styles.logoGaman} src="./logo.png" alt="" />
-        <h1>Ingresar</h1>
+        {/* <img className={styles.logoGaman} src="./logo.png" alt="" /> */}
         <form onSubmit={handleSubmit}>
           <Column gap="10px">
             <Column gap="5px">

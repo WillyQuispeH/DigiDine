@@ -8,13 +8,14 @@ import {
   DragPreviewImage,
   DragSourceMonitor,
 } from "react-dnd";
-import { IProduct } from "@/interfaces/product";
+import { IProduct, initData } from "@/interfaces/product";
 import BtnIconText from "@/components/ui/BtnIconText";
 import Modal from "@/components/ui/Modal";
 import ProductOrder from "../Product";
 import useProduct from "@/store/hooks/useProduct";
-import { useComercio } from "@/store/hooks";
+import { useComercio, useFile } from "@/store/hooks";
 import { useParams, useRouter } from "next/navigation";
+import ScreenLoader from "@/components/layout/ScreenLoader";
 
 export const ItemTypes = {
   PRODUCT: "product",
@@ -39,7 +40,14 @@ interface ColumnProps {
 const Product = ({ onDrop, products, id, name }: ColumnProps) => {
   const [modal, setModal] = useState(false);
 
-  const { createProduct, product, isValidProduct } = useProduct();
+  const {
+    createProduct,
+    product,
+    isValidProduct,
+    loadingProduct,
+    resetProduct,
+  } = useProduct();
+  const { fileBlob } = useFile();
   const { comercio } = useComercio();
   const { restaurant } = comercio;
 
@@ -50,18 +58,19 @@ const Product = ({ onDrop, products, id, name }: ColumnProps) => {
       isOver: !!monitor.isOver(),
     }),
   });
-  const handleAddProduct = () => {
-    createProduct(
-      restaurant.id,
-      product.name,
-      product.img,
-      product.price,
-      product.favorite,
-      product.description,
-      product.ingredients
-    );
-  };
 
+  const handleAddProduct = () => {
+    const formData = new FormData();
+    formData.append("file", fileBlob, "miImgen");
+    formData.append("restaurant_id", restaurant.id);
+    formData.append("name", product.name);
+    formData.append("price", product.price.toString());
+    formData.append("favorite", product.favorite.toString());
+    formData.append("description", product.description);
+    formData.append("ingredients", JSON.stringify(product.ingredients));
+    createProduct(formData);
+  };
+  console.log(comercio);
   return (
     <>
       <div className={styles.contentDragAndDrop}>
@@ -79,6 +88,7 @@ const Product = ({ onDrop, products, id, name }: ColumnProps) => {
           ))}
         </div>
       </div>
+      <ScreenLoader active={loadingProduct} />
       <Modal
         setModal={() => setModal(false)}
         modal={modal}

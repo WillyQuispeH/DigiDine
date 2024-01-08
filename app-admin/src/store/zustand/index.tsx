@@ -7,6 +7,7 @@ import { authStore } from "./authStore";
 import { comercioStore } from "./comercioStore";
 import { fileStore } from "./fileStore";
 import { categoryStore } from "./categoryStore";
+import { gptStore } from "./gptStore";
 
 export {
   uiStore,
@@ -18,4 +19,5 @@ export {
   comercioStore,
   fileStore,
   categoryStore,
+  gptStore,
 };

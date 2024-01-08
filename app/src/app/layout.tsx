@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import Screen from "@/components/layout/Screen";
 import NavBar from "@/components/ui/NavBar";
 import { SocketProvider } from "@/context/SocketContext";
+import Content from "@/components/layout/Content";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,8 +22,12 @@ export default function RootLayout({
     <SocketProvider>
       <html lang="en">
         <body className={inter.className}>
-          <NavBar />
-          <Screen>{children}</Screen>
+          <Screen>
+            <Content>
+              <NavBar />
+              {children}
+            </Content>
+          </Screen>
         </body>
       </html>
     </SocketProvider>

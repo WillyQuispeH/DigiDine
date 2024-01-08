@@ -12,10 +12,11 @@
 }
 
 body {
-  background-image: url("/bg-better.jpg") !important;
+  /* background-image: url("/bg-better.jpg") !important; */
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
+  background-color: #261e35;
 }
 ::-webkit-scrollbar {
   width: 8px;

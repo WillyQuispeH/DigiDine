@@ -30,7 +30,7 @@ const ImgCropper = () => {
   const [blodImg, setBlodImg] = useState<Blob | null>(null);
 
   const { setProduct, product } = useProduct();
-  const { addFile, file } = useFile();
+  const { addFile, file, setFileBlob } = useFile();
 
   const onCropComplete = React.useCallback(
     (croppedArea: any, croppedAreaPixels: IcropperPixels) => {
@@ -60,6 +60,7 @@ const ImgCropper = () => {
 
         if (croppedImage) {
           setBlodImg(croppedImage);
+          setFileBlob(croppedImage);
           setCroppedImage(URL.createObjectURL(croppedImage));
         }
       } catch (error: any) {
@@ -69,22 +70,22 @@ const ImgCropper = () => {
     }
   };
 
-  const uploadServer = () => {
-    if (blodImg) {
-      const formData = new FormData();
-      formData.append("file", blodImg, "miImgen");
-      addFile(formData);
-    }
-  };
+  // const uploadServer = () => {
+  //   if (blodImg) {
+  //     const formData = new FormData();
+  //     formData.append("file", blodImg, "miImgen");
+  //     addFile(formData);
+  //   }
+  // };
 
-  useEffect(() => {
-    if (file.public_id) {
-      setProduct({
-        ...product,
-        img: file.url,
-      });
-    }
-  }, [file]);
+  // useEffect(() => {
+  //   if (file.public_id) {
+  //     setProduct({
+  //       ...product,
+  //       img: file.url,
+  //     });
+  //   }
+  // }, [file]);
 
   useEffect(() => {
     const reactEasyCropContainers = document.getElementsByClassName(
@@ -118,12 +119,12 @@ const ImgCropper = () => {
               icon="outbox_alt"
             />
           </Column>
-          <ButtonIcon
+          {/* <ButtonIcon
             onClick={uploadServer}
             width="40px"
             height="40px"
             icon="cloud_upload"
-          />
+          /> */}
         </div>
         <div className={styles.contenMainCrop}>
           {image ? (

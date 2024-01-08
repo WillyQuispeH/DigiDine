@@ -3,6 +3,7 @@ import ComercioRouter from "./comercio";
 import FileRouter from "./file";
 import CategoryRouter from "./category";
 import ProductRouter from "./product";
+import GPTRouter from "./gpt";
 
 export {
   UserRouter,
@@ -10,4 +11,5 @@ export {
   FileRouter,
   CategoryRouter,
   ProductRouter,
+  GPTRouter,
 };

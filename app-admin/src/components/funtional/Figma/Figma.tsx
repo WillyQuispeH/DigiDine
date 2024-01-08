@@ -17,7 +17,7 @@ import ProItem from "./ProItem";
 const Figma = () => {
   const params = useParams();
   const { comercio, setComercio, getByIdComercio } = useComercio();
-  const { getAllByRestaurantId, listProduct } = useProduct();
+  const { getAllByRestaurantId, listProduct, resetProduct } = useProduct();
   const { stageUi } = useUi();
   const { category, restaurant } = comercio;
 
@@ -47,8 +47,6 @@ const Figma = () => {
       getByIdComercio(params.comercio as string);
     }
   }, []);
-
-  console.log(comercio);
 
   return (
     <div className={styles.figma}>

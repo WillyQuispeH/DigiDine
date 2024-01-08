@@ -11,10 +11,11 @@ const config = {
   db_database: process.env.DB_DATABASE,
   db_password: process.env.DB_PASSWORD,
 
-
   cloudinary_name: process.env.CLOUD_NAME || "",
   cloudinary_api_key: process.env.CLOUD_API_KEY || "",
   cloudinary_secret: process.env.CLOUD_API_SECRET || "",
+
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY,
 };
 
 export default config;

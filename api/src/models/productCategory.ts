@@ -23,12 +23,12 @@ const create = async (category_id: string, product_id: string) => {
   }
 };
 
-const remove = async (category_id: string, product_id: string) => {
+const remove = async (category_id: string) => {
   try {
     const resultDataBase = await pool.query(
       `DELETE FROM app."productCategory"
-        WHERE category_id = $1 AND product_id = $2;`,
-      [category_id, product_id]
+        WHERE category_id = $1;`,
+      [category_id]
     );
     return {
       success: true,

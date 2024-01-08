@@ -1,10 +1,30 @@
 .product {
-  width: 100vw;
-  height: 90vh;
-  margin-top: 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.contenTitle {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  background-color: aquamarine;
+  flex-direction: column;
+  gap: 5px;
+  z-index: 2;
+
+  .msgInicio {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+  }
+
+  .spanArrow {
+    font-size: 38px;
+    font-weight: 800;
+    color: white;
+  }
 }

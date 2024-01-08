@@ -13,7 +13,7 @@ const Form = ({ children, title, isValid }: IForm) => {
     <div className={styles.form}>
       <div
         className={styles.titleForm}
-        style={{ background: isValid ? "#60b2e4" : "#243343" }}
+        // style={{ background: isValid ? "#60b2e4" : "#243343" }}
       >
         {title}
       </div>

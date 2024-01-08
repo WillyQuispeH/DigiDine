@@ -11,11 +11,14 @@
   min-height: 80px;
   line-height: 95%;
   border-radius: 10px;
-  background-color: #52555a;
   font-size: 14px;
   padding: 3px;
   padding-bottom: 5px;
-  p{
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: #3c354a;
+  backdrop-filter: blur(70px);
+  p {
     width: 100%;
     height: 50px;
     display: flex;
@@ -23,7 +26,6 @@
     justify-content: center;
   }
 }
-
 
 .DDProductOfert {
   position: relative;
@@ -38,11 +40,15 @@
   min-height: 80px;
   line-height: 95%;
   border-radius: 10px;
-  background-color: rgb(150, 0, 0);
+
   font-size: 14px;
   padding: 3px;
   padding-bottom: 5px;
-  p{
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: #3c354a;
+  backdrop-filter: blur(70px);
+
+  p {
     width: 100%;
     height: 50px;
     display: flex;
@@ -50,7 +56,6 @@
     justify-content: center;
   }
 }
-
 
 .buttonDelete {
   position: absolute;
@@ -63,14 +68,14 @@
   border-radius: 7px;
 
   &:hover {
-    border: 1px solid #60b2e4;
+    border: 1px solid #ac6aec;
   }
 
   &:active {
     transform: scale(0.9);
   }
 }
-.buttonEdit{
+.buttonEdit {
   position: absolute;
   top: 3px;
   left: 3px;
@@ -81,7 +86,7 @@
   border-radius: 7px;
 
   &:hover {
-    border: 1px solid #60b2e4;
+    border: 1px solid #ac6aec;
   }
 
   &:active {

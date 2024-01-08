@@ -37,8 +37,15 @@ const Movil = () => {
             setStageUi("product");
           }}
         >
-          <span className="material-symbols-outlined">restaurant_menu</span>
-          <p>Productos</p>
+          <span
+            className="material-symbols-outlined"
+            style={{ color: stageUi === "product" ? "#d8bcff" : "#fff" }}
+          >
+            restaurant_menu
+          </span>
+          <p style={{ color: stageUi === "product" ? "#d8bcff" : "#fff" }}>
+            Productos
+          </p>
         </div>
         <div
           className={styles.itemMovilNav}
@@ -46,8 +53,15 @@ const Movil = () => {
             setStageUi("category");
           }}
         >
-          <span className="material-symbols-outlined">menu_book</span>
-          <p>Categorias</p>
+          <span
+            className="material-symbols-outlined"
+            style={{ color: stageUi === "category" ? "#d8bcff" : "#fff" }}
+          >
+            menu_book
+          </span>
+          <p style={{ color: stageUi === "category" ? "#d8bcff" : "#fff" }}>
+            Categorias
+          </p>
         </div>
         <div
           className={styles.itemMovilNav}
@@ -55,8 +69,15 @@ const Movil = () => {
             setStageUi("shared");
           }}
         >
-          <span className="material-symbols-outlined">qr_code_scanner</span>
-          <p>Compartir</p>
+          <span
+            className="material-symbols-outlined"
+            style={{ color: stageUi === "shared" ? "#d8bcff" : "#fff" }}
+          >
+            qr_code_scanner
+          </span>
+          <p style={{ color: stageUi === "shared" ? "#d8bcff" : "#fff" }}>
+            Compartir
+          </p>
         </div>
       </div>
     </div>

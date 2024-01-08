@@ -1,9 +1,8 @@
-import Dashboard from "@/components/funtional/Comercio";
-import TableComercio from "@/components/ui/TableComercio";
+import Welcome from "@/components/funtional/Welcome";
 import React from "react";
 
 const DashboardPage = () => {
-  return <TableComercio />;
+  return <Welcome />;
 };
 
 export default DashboardPage;

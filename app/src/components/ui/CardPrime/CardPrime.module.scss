@@ -1,0 +1,116 @@
+@import "../../../styles/mixins.scss";
+.contenPrime {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cardPrime {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 380px;
+  height: 100px;
+  border-radius: 13px;
+  background-color: #1b1b20;
+  position: relative;
+
+  @include media-sm() {
+    width: 90%;
+  }
+
+ 
+}
+
+.cardImg {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 13px 0 0 13px;
+}
+
+.cardDes {
+  width: 180px;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2px;
+  padding-left: 10px;
+
+  @include media-sm() {
+    width: 50%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.description {
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #666;
+}
+.price {
+  font-size: 20px;
+  font-weight: 500;
+  color: #666;
+}
+
+.contentAccion {
+  width: 50px;
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px;
+
+  p {
+    width: 100%;
+    font-size: 14px;
+    color: #666;
+    font-weight: 800;
+    text-align: center;
+  }
+}
+
+.buttonLike {
+  font-size: 30px;
+  font-weight: 800;
+  color: #666;
+}
+
+.num {
+  color: #fff;
+  font-weight: 900;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 8px;
+
+  span {
+    font-size: 30px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #000 18.54%,
+      rgba(217, 217, 217, 0) 100%
+    );
+  }
+}

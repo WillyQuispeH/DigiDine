@@ -10,15 +10,8 @@ type productState = {
   setIsValid: (isValid: boolean) => void;
   setAllProduct: (list: IProduct[]) => void;
   getAllByRestaurantId: (restaurant_id: string) => void;
-  create: (
-    restaurant_id: string,
-    name: string,
-    img: string,
-    price: number,
-    favorite: number,
-    description: string,
-    ingredients: IIngredient[]
-  ) => void;
+  create: (formData: FormData) => void;
+  reset: () => void;
 
   loading: boolean;
   isError: boolean;
@@ -49,7 +42,7 @@ export const productStore = create<productState>((set, get) => ({
     set((state) => ({
       product: product,
       isValid:
-        validateForm(product, ["name", "description", "price", "img"]) &&
+        validateForm(product, ["name", "description", "price"]) &&
         state.product.ingredients.length !== 0
           ? true
           : false,
@@ -83,30 +76,26 @@ export const productStore = create<productState>((set, get) => ({
     }
   },
 
-  create: async (
-    restaurant_id: string,
-    name: string,
-    img: string,
-    price: number,
-    favorite: number,
-    description: string,
-    ingredients: IIngredient[]
-  ) => {
+  create: async (formData: FormData) => {
     try {
       set((state) => ({ ...state, loading: true }));
 
-      const { data: response } = await apiInstance.post("/product/create", {
-        restaurant_id,
-        name,
-        img,
-        price,
-        favorite,
-        description,
-        ingredients,
-      });
+      const { data: response } = await apiInstance.post(
+        "/product/create",
+        formData,
+        {
+          headers: { "Content-Type": "multipart/form-data" },
+        }
+      );
 
       const { data } = response;
-      set((state) => ({ ...state, loading: false, list: data || [] }));
+
+      set((state) => ({
+        ...state,
+        loading: false,
+        list: data || [],
+        product: initData,
+      }));
     } catch (error) {
       set((state) => ({
         ...state,
@@ -115,5 +104,11 @@ export const productStore = create<productState>((set, get) => ({
         loading: false,
       }));
     }
+  },
+  reset: async () => {
+    set((state) => ({
+      ...state,
+      product: initData,
+    }));
   },
 }));

@@ -4,8 +4,11 @@
   left: 0;
   width: 100vw;
   height: 60px;
-  background-color: #243343;
+  // background-color: #243343;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  background: #261e35;
+  box-shadow: 0px 0px 3px 0px rgba(255, 255, 255, 0.15) inset;
 }

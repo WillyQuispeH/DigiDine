@@ -8,12 +8,13 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #60b2e4;
-    border-radius: 7px;
-    font-weight: 400;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #ac6aec 0%, #bb7ff5 100%);
+
+    font-weight: 800;
     font-size: 15px;
     text-align: center;
-    color: #000000;
+    color: #ffffff;
     cursor: pointer;
     transition: transform 0.3s linear;
 

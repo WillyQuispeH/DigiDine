@@ -1,9 +1,17 @@
 import createLogger from "../utils/logger";
 import { Response, Request } from "express";
+import config from "../utils/config";
 
 import * as ProductModels from "../models/product";
 import * as IngredientsModels from "../models/ingredients";
+import { v2 as cloudinary } from "cloudinary";
 import fs from "fs";
+
+cloudinary.config({
+  cloud_name: config.cloudinary_name || "dzfg8xnxn",
+  api_key: config.cloudinary_api_key || "734242724172826",
+  api_secret: config.cloudinary_secret || "1_K4cx2TRHcbd3URjmuHJ_oJU-Y",
+});
 
 const getAllByRestaurantId = async (req: any, res: any) => {
   try {
@@ -29,21 +37,40 @@ const getAllByRestaurantId = async (req: any, res: any) => {
   }
 };
 
-const create = async (req: any, res: any) => {
+const create = async (req: Request, res: Response) => {
   try {
-    const {
-      restaurant_id,
-      name,
-      img,
-      price,
-      favorite,
-      description,
-      ingredients,
-    } = req.body;
+    const file = req.file;
+
+    if (!file) {
+      res
+        .status(200)
+        .json({ success: true, data: null, error: "Falta Archivo" });
+      return;
+    }
+
+    const { restaurant_id, name, price, favorite, description, ingredients } =
+      req.body;
+
+    if (!file) {
+      res
+        .status(200)
+        .json({ success: true, data: null, error: "Falta Archivo" });
+      return;
+    }
+
+    const resultFile = await cloudinary.uploader.upload(file.path);
+
+    fs.unlinkSync(file.path);
+
+    createLogger.info({
+      model: "file/add",
+      data: req.body,
+    });
+
     const result = await ProductModels.create(
       restaurant_id,
       name,
-      img,
+      resultFile.url,
       price,
       favorite,
       description
@@ -62,9 +89,11 @@ const create = async (req: any, res: any) => {
       res.status(500).json({ success: false, data: null, error: result.error });
       return;
     }
-    const productId = result.data.id;
 
-    for (const ingredient of ingredients) {
+    const productId = result.data.id;
+    const ingredientsArray = JSON.parse(ingredients);
+
+    for (const ingredient of ingredientsArray) {
       const resultIngredient = await IngredientsModels.create(
         productId,
         ingredient.name

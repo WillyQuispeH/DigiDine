@@ -6,6 +6,8 @@ import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
 import styles from "./TableComercio.module.scss";
+import ScreenLoader from "@/components/layout/ScreenLoader";
+import { Row } from "@/components/layout/Generic";
 
 const TableComercio = () => {
   const { getByPersonId, listComercio, comercio, setComercio } = useComercio();
@@ -18,7 +20,7 @@ const TableComercio = () => {
   }, [session?.user?.person_id]);
 
   if (status === "loading") {
-    return <p>Loading...</p>;
+    return <ScreenLoader active={true} />;
   }
   const handleEditComercio = (comercio_id: string) => {
     const comercio = listComercio.find(
@@ -32,10 +34,21 @@ const TableComercio = () => {
     <div className={styles.contenMainComercials}>
       <div className={styles.tableComercials}>
         {listComercio?.map((comercio: IComercio) => (
-          <div key={comercio.comercio.id}>
-            <h1>{comercio.restaurant.name}</h1>
-            <h1>{comercio.comercio.id}</h1>
-            <button onClick={() => handleEditComercio(comercio.comercio.id)}>
+          <div className={styles.itemComercio} key={comercio.comercio.id}>
+            <Row gap="10px">
+              <img src={comercio.restaurant.logo} />
+              <div className={styles.contenInformacion}>
+                <h1>{comercio.restaurant.name}</h1>
+                <h1>{comercio.comercio.id}</h1>
+              </div>
+            </Row>
+            <button
+              className={styles.buttonIconBlu}
+              onClick={() => handleEditComercio(comercio.comercio.id)}
+            >
+              <span className="material-symbols-outlined">
+                app_registration
+              </span>
               Editar
             </button>
           </div>

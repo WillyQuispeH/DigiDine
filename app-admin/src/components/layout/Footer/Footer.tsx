@@ -5,6 +5,7 @@ import styles from "./Footer.module.scss";
 import Button from "@/components/ui/Button";
 import useAuth from "@/store/hooks/useAuth";
 import { useComercio } from "@/store/hooks";
+import ScreenLoader from "../ScreenLoader";
 
 interface IFooter {
   children?: ReactNode;
@@ -13,7 +14,6 @@ const Footer = ({ children }: IFooter) => {
   const { comercio, updateCategoryProduct, loadingComercio } = useComercio();
 
   const handleOnSave = () => {
-    alert("seguri");
     updateCategoryProduct(comercio);
   };
 
@@ -28,6 +28,7 @@ const Footer = ({ children }: IFooter) => {
         loader={loadingComercio}
       />
       {children}
+      <ScreenLoader active={loadingComercio} />
     </div>
   );
 };

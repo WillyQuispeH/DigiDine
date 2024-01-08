@@ -5,7 +5,7 @@
   border-radius: 7px;
   transition: transform 0.3s linear;
   cursor: pointer;
-  background: #60b2e4;
+  background: #261e35;
 
   span {
     width: 100%;
@@ -16,6 +16,17 @@
     font-weight: 300;
     color: #fff;
     font-size: 30px;
+    transition: all 0.5s;
+  }
+
+  &:hover span {
+    color: #d8bcff;
+  }
+
+  &:hover {
+    border-radius: 13px;
+    background: #372c44;
+    color: #d8bcff;
   }
 
   &:active {

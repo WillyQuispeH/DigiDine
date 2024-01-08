@@ -1,0 +1,9 @@
+{"level":"info","message":"API listening port 3005","timestamp":"2024-01-01 22:34:59"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-01-01 22:34:59"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2024-01-01 22:36:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2024-01-01 22:36:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2024-01-01 22:36:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2024-01-01 22:36:59"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2024-01-01 22:36:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getAllByRestaurantId/e2b6bc80-ef0b-4d50-9974-ef8ada8a4a51"},"timestamp":"2024-01-01 22:36:59"}
+{"level":"info","message":{"data":{},"model":"product/getAllByRestaurantId"},"timestamp":"2024-01-01 22:36:59"}

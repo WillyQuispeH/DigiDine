@@ -19,6 +19,7 @@ const useProduct = () => {
     getAllByRestaurantId,
     setIsValid: setIsValidProduct,
     create: createProduct,
+    reset: resetProduct,
   } = productStore();
 
   return {
@@ -30,6 +31,7 @@ const useProduct = () => {
     getAllByRestaurantId,
     setIsValidProduct,
     createProduct,
+    resetProduct,
     isValidProduct,
   };
 };

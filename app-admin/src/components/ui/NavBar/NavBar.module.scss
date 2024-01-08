@@ -7,27 +7,29 @@
   left: 0;
   width: 100vw;
   height: 70px;
-  background-color: #243343;
-  z-index: 22;
+  padding: 0 10px;
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.15) inset;
+  background: #261e35;
+  z-index: 19;
 }
 
-.buttonLogoNavBar {
+.contenNavbar {
   width: 270px;
-  padding: 0 5px;
   height: 70px;
-  border-right: 1px solid #3f5265;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  margin-left: 70px;
+}
+.itemStage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
 
   span {
-    width: 50px;
-    height: 50px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    border-radius: 7px;
+    font-size: 30px;
   }
 }

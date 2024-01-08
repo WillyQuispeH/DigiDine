@@ -1,7 +1,7 @@
 import createLogger from "../utils/logger";
-import { v2 as cloudinary } from "cloudinary";
-import config from "../utils/config";
 import { Response, Request } from "express";
+import config from "../utils/config";
+import { v2 as cloudinary } from "cloudinary";
 import fs from "fs";
 
 cloudinary.config({

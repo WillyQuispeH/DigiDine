@@ -1,0 +1,5 @@
+{"level":"info","message":"API listening port 3005","timestamp":"2023-12-22 19:15:36"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-12-22 19:15:36"}
+{"level":"info","message":{"body":{"email":"taoQuispe@gmial.com","password":"957902342"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-12-22 19:15:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-12-22 19:15:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByPersonId/41c3c221-4738-4206-8fa8-053a73fe043d"},"timestamp":"2023-12-22 19:15:59"}

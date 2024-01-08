@@ -102,13 +102,7 @@ const DDCategory = ({
 
   return (
     <div ref={setNodeRef} style={style} className={styles.ddcategoryMain}>
-      <div
-        className={claseStyles[clase].s || ""}
-        ref={drop}
-        style={{
-          border: `1px solid ${isOver ? "#60b2e4" : "black"}`,
-        }}
-      >
+      <div className={claseStyles[clase].s || ""} ref={drop}>
         <div className={styles.contenTitle}>
           <div className={styles.contenVisualCategory}>
             {name}{" "}

@@ -15,7 +15,7 @@
 }
 
 .contentMoviPreview {
-  width: 25vw;
+  width: 20vw;
   height: 75vh;
   display: flex;
   align-items: center;
@@ -23,7 +23,6 @@
 }
 
 .contentDragAndDrop {
-  background-color: #252a32;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -31,13 +30,19 @@
   width: 33%;
   height: 100%;
   border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
 
   .title {
     border-radius: 10px 10px 0 0;
     width: 100%;
     height: 50px;
     min-height: 50px;
-    background-color: rgb(36, 50, 66);
+    background: linear-gradient(
+      127deg,
+      rgba(255, 255, 255, 0.12) 28.69%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    backdrop-filter: blur(70px);
     color: white;
     font-size: 20px;
     display: flex;
@@ -85,7 +90,7 @@
 }
 
 .contentDragAndDropProductOrder {
-  background-color: #252a32;
+  border: 1px solid rgba(255, 255, 255, 0.15);
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -101,7 +106,12 @@
     width: 100%;
     height: 50px;
     min-height: 50px;
-    background-color: rgb(36, 50, 66);
+    background: linear-gradient(
+      127deg,
+      rgba(255, 255, 255, 0.12) 28.69%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    backdrop-filter: blur(70px);
     color: white;
     font-size: 20px;
     display: flex;
@@ -125,11 +135,11 @@
     }
 
     &::-webkit-scrollbar-track {
-      background: #cccccc;
+      background: #261e35;
     }
 
     &::-webkit-scrollbar-thumb {
-      background: #888;
+      background: #372c44;
     }
 
     &::-webkit-scrollbar-thumb:hover {
@@ -151,10 +161,13 @@
   min-height: 80px;
   line-height: 95%;
   border-radius: 10px;
-  background-color: #52555a;
   font-size: 14px;
   padding: 3px;
   padding-bottom: 5px;
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: #3c354a;
+  backdrop-filter: blur(70px);
   p {
     width: 100%;
     height: 50px;
@@ -184,21 +197,21 @@
   label {
     display: flex;
     justify-content: center;
-    background-color: white;
+    background: #2f293e;
     align-items: center;
     width: 286px;
     height: 50px;
     min-height: 30px;
     border-radius: 7px;
-    font-size: 16px;
     font-weight: 800;
+    font-size: 12px;
+    color: #ecd8ff;
     gap: 3px;
-    color: #666;
     cursor: pointer;
     transition: all 0.5s;
 
     span {
-      color: #666;
+      color: #e2d8fd;
       font-size: 20px;
       font-weight: 700;
       height: 16px;
@@ -221,7 +234,7 @@
   color: #fff;
 
   &:hover {
-    border: 1px solid #60b2e4;
+    border: 1px solid #ac6aec;
   }
 
   &:active {

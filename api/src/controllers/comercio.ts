@@ -166,18 +166,13 @@ export { create, getByPersonId, getById, updateCategoryProduct };
 const removeData = async (result: ICategory[]) => {
   for (const categoryResult of result) {
     const categoryId = categoryResult.id;
-    const products = categoryResult.products || [];
 
-    for (const productResult of products) {
-      const productId = productResult.id;
-
-      const result = await CategoryProductModels.remove(categoryId, productId);
-      if (!result.success) {
-        createLogger.error({
-          model: "categoryProductModels/remove",
-          error: result.error,
-        });
-      }
+    const result = await CategoryProductModels.remove(categoryId);
+    if (!result.success) {
+      createLogger.error({
+        model: "categoryProductModels/remove",
+        error: result.error,
+      });
     }
   }
 };

@@ -1,46 +1,27 @@
+"use client";
 import React from "react";
 import styles from "./NavBar.module.scss";
 import Link from "next/link";
 
 const NavBar = () => {
   return (
-    <div className={styles.navBar}>
-      <Link href={"/"} className={styles.iconMenu}>
-        <span className={`material-symbols-outlined  `}>menu</span>
-      </Link>
+    <div className={styles.menu}>
+      <input type="checkbox" id="menuToggle" className={styles.to} />
+      <label htmlFor="menuToggle" className={styles.contentMenuICon}>
+        <span className="material-symbols-outlined">zoom_out_map</span>
+      </label>
 
-      <Link href="/">
-        <div className={styles.logo}>
-          <img
-            src="https://marketplace.canva.com/EAFauoQSZtY/1/0/1600w/canva-brown-mascot-lion-free-logo-qJptouniZ0A.jpg"
-            alt=""
-          />
-          <p>Gaman</p>
-        </div>
+      <Link href="/" className={styles.itemMenuOne}>
+        <span className="material-symbols-outlined">widgets</span>
       </Link>
-
-      <ul>
-        <Link href={"/product"}>
-          <li>
-            <span className="material-symbols-outlined">local_dining</span>
-            Productos
-          </li>
-        </Link>
-        <Link href={"/category"}>
-          <li>
-            <span className="material-symbols-outlined">menu_book</span>
-            Categorias
-          </li>
-        </Link>
-        <Link href={"/shared"}>
-          <li>
-            <span className={`material-symbols-outlined`}>share</span>
-            Compartir
-          </li>
-        </Link>
-      </ul>
-      <Link href={"/shared"} className={styles.iconMenu}>
-        <span className={`material-symbols-outlined  `}>share</span>
+      <Link href="/category" className={styles.itemMenuDos}>
+        <span className="material-symbols-outlined">menu_book</span>
+      </Link>
+      <Link href="/shared" className={styles.itemMenuTres}>
+        <span className="material-symbols-outlined">qr_code_scanner</span>
+      </Link>
+      <Link href="/product" className={styles.itemMenuCuatro}>
+        <span className="material-symbols-outlined">restaurant_menu</span>
       </Link>
     </div>
   );

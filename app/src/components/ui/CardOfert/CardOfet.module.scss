@@ -1,0 +1,101 @@
+@import "../../../styles/mixins.scss";
+.cardSlider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+
+  .card {
+    display: none;
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(9, 87, 0);
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 190px;
+      height: 190px;
+    }
+  }
+
+  .active {
+    display: flex;
+  }
+
+  .navButtonL {
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    background: linear-gradient(90deg, #151518 0%, rgba(21, 21, 24, 0) 100%);
+    height: 200px;
+    width: 10%;
+    span {
+      color: #fff;
+      font-size: 30px;
+    }
+  }
+
+  .navButtonR {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    background: linear-gradient(270deg, #151518 0%, rgba(21, 21, 24, 0) 100%);
+    height: 200px;
+    width: 10%;
+    span {
+      color: #fff;
+      font-size: 30px;
+    }
+  }
+
+  .navButton:first-child {
+    left: 10px;
+  }
+
+  .navButton:last-child {
+    right: 10px;
+  }
+}
+
+.contentInfo {
+  width: 50%;
+  height: 190px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+
+  p {
+    width: 100%;
+    font-size: 35px;
+    font-weight: 800;
+    color: #aebe00;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 99%;
+  }
+  h1 {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  span {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #c8c8c8;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}

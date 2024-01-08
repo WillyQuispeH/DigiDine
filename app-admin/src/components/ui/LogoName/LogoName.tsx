@@ -10,7 +10,7 @@ const LogoName = () => {
       <div className={styles.logo}>
         <img src={comercio.restaurant.logo} alt="" />
       </div>
-      <h1>{comercio.restaurant.name}</h1>
+      {/* <h1>{comercio.restaurant.name}</h1> */}
     </div>
   );
 };

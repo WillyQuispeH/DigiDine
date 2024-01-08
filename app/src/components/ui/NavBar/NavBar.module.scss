@@ -1,108 +1,181 @@
 @import "../../../styles/mixins.scss";
-.navBar {
+
+.menu {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 70px;
-  background: rgba(0, 0, 0, 0.8);
-  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
   z-index: 20;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.contentMenuICon {
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 50px;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  background: #151518;
 
-  @include media-xl() {
-    padding: 0 10px;
-    height: 70px;
-  }
-
-  .iconMenu {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
+  span {
     color: #fff;
-    background-color: black;
-    transition: all 0.5s;
-    font-size: 30px;
-    cursor: pointer;
+    font-size: 20px;
+  }
+}
 
-    &:hover {
-      background-color: #fff;
-      color: #000000;
-    }
+.to {
+  display: none;
+}
 
-    @include media-xl() {
-      display: flex;
-    }
+.to {
+  &:checked ~ .itemMenuOne {
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    opacity: 1;
+  }
+}
+
+.to {
+  &:checked ~ .itemMenuDos {
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    opacity: 1;
+  }
+}
+
+.to {
+  &:checked ~ .itemMenuTres {
+    position: absolute;
+    top: 0px;
+    left: 180px;
+    opacity: 1;
+  }
+}
+.to {
+  &:checked ~ .itemMenuCuatro {
+    position: absolute;
+    top: 0px;
+    left: 240px;
+    opacity: 1;
+  }
+}
+
+/*------------------------------------------------------------------------*/
+
+.itemMenuOne {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background: rgb(20, 20, 26, 0.7);
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  span {
+    color: #fff;
   }
 
-  .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+  &:hover {
+    background: #151518;
+  }
+}
 
-    img {
-      width: 50px;
-      height: 50px;
-      border-radius: 10px;
-      border: 2px solid #fff;
-    }
-    p {
-      font-size: 25px;
-      color: #fff;
-      font-weight: 800;
-    }
+.itemMenuDos {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background: rgb(20, 20, 26, 0.7);
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+
+  span {
+    color: #fff;
   }
 
-  ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    list-style-type: none;
+  &:hover {
+    background: #151518;
+  }
+}
 
-    @include media-xl() {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 60px;
-      background: rgba(0, 0, 0, 0.8);
-      box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
-    }
+.itemMenuTres {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background: rgb(20, 20, 26, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  span {
+    color: #fff;
+  }
 
-    li {
-      color: #d8d8d8;
-      font-size: 20px;
-      font-weight: 800;
-      cursor: pointer;
-      transition: all 0.5s;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+  &:hover {
+    background: #151518;
+  }
+}
 
-      span {
-        margin-right: 5px;
-      }
+.itemMenuCuatro {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgb(20, 20, 26, 0.7);
+  cursor: pointer;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  span {
+    color: #fff;
+  }
 
-      &:hover {
-        color: #fff;
-      }
-
-      @include media-xl() {
-        width: 85px;
-        height: 50px;
-        border-radius: 10px;
-        justify-content: space-around;
-        flex-direction: column;
-        font-size: 14px;
-      }
-    }
+  &:hover {
+    background: #151518;
   }
 }

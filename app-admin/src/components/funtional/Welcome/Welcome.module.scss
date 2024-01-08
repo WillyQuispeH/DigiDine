@@ -1,0 +1,18 @@
+.contenWelcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.contenTitle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 800px;
+  font-size: 25px;
+  font-weight: 800;
+  color: white;
+}

@@ -5,7 +5,8 @@
   justify-content: center;
   flex-direction: column;
   border-radius: 8px;
-  background-color: #c6c6c6;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  // background-color: #c6c6c6;
 
   // background-color: rgba(255, 255, 255, 0.5);
   // box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.2);
@@ -14,7 +15,12 @@
 
   .titleForm {
     width: 100%;
-    background-color: #243343;
+    background: linear-gradient(
+      127deg,
+      rgba(255, 255, 255, 0.12) 28.69%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    backdrop-filter: blur(70px);
     border-radius: 7px 7px 0 0;
     display: flex;
     align-items: center;

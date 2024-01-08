@@ -17,7 +17,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
         style={{ width }}
       >
         <label>{label}</label>
-        <input type={type} ref={ref} {...props} />
+        <input type={type} ref={ref} {...props} autoComplete="off" />
       </div>
     );
   }

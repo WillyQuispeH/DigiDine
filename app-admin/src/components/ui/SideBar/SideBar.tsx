@@ -1,20 +1,20 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import styles from "./SideBar.module.scss";
 import { useUi } from "@/store/hooks";
 import { usePathname, useParams, useRouter } from "next/navigation";
 
 import Link from "next/link";
+import UserIcon from "../UserIcon";
 
 const SideBar = () => {
-  const { sideBar, setSideBar } = useUi();
   const router = useRouter();
 
   const params = useParams();
 
   const data = [
-    { icon: "delete", path: "/delete", text: "Eliminar" },
-    { icon: "add", path: "/add", text: "Agregar" },
+    { icon: "delete", path: "/dashboard/", text: "Restaurants" },
+
     {
       icon: "add_business",
       path: `/dashboard/${params.comercio}/product`,
@@ -32,8 +32,23 @@ const SideBar = () => {
     },
   ];
 
+  const [rotated, setRotated] = useState(false);
+
+  const handleLogoClick = () => {
+    setRotated(!rotated);
+  };
+
   return (
-    <div className={styles.sideBar} style={{ left: sideBar ? "-320px" : "0" }}>
+    <div className={styles.sideBar}>
+      <div className={styles.contenLogoGaman}>
+        <img
+          onClick={handleLogoClick}
+          className={`${styles.imgLogo} ${rotated ? styles.rotated : ""}`}
+          src="/logo.png"
+          alt=""
+        />
+      </div>
+
       <ul className={styles.ulSideBar}>
         {data?.map((item, key) => (
           <li key={key}>
@@ -41,16 +56,16 @@ const SideBar = () => {
               className={styles.linkSideBar}
               // href={item.path}
               onClick={() => {
-                setSideBar();
                 router.push(item.path);
               }}
             >
               <span className="material-symbols-outlined">{item.icon}</span>
-              {item.text}
+              <p className={styles.textSidebar}>{item.text}</p>
             </div>
           </li>
         ))}
       </ul>
+      <UserIcon />
     </div>
   );
 };

@@ -1,22 +1,23 @@
 .sideBar {
-  width: 270px;
-  height: calc(100vh - 70px);
+  width: 70px;
+  height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: column;
   position: fixed;
-  background: linear-gradient(180deg, #263646 0%, #0a1015 100%);
   bottom: 0;
   left: 0;
-  border-top: 1px solid #3f5265;
-  transition: left 0.5s;
+  transition: all 0.5s;
   z-index: 20;
+  background: #261e35;
+  box-shadow: -1.5px 0px 0px 0px rgba(255, 255, 255, 0.15) inset;
 }
 
 .ulSideBar {
   list-style: none;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
   padding: 10px;
@@ -26,23 +27,82 @@
 }
 
 .linkSideBar {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  border-radius: 7px;
+  border-radius: 13px;
+  cursor: pointer;
   padding: 5px;
-  width: 240px;
   color: #999;
   font-weight: 500;
   transition: all 0.5s;
+  width: 50px;
+  height: 50px;
 
   &:hover {
-    background-color: #60b2e4;
+    background: #372c44;
     color: #ffffff;
+  }
+
+  &:hover .textSidebar {
+    opacity: 1;
+    display: flex;
+    transition: all 0.5s;
+  }
+
+  &:hover span {
+    color: #d8bcff;
   }
 
   span {
     font-size: 28px;
-    margin-right: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8d8598;
   }
+}
+
+.contenLogoGaman {
+  width: 100%;
+  height: 70px;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  gap: 10px;
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.textSidebar {
+  position: absolute;
+  left: 60px;
+  background-color: #372c44;
+  display: none;
+  opacity: 0;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  padding: 5px 10px;
+  line-height: 90%;
+  font-weight: 400;
+  font-size: 16px;
+  transition: all 0.5s;
+  border-radius: 13px;
+}
+
+.imgLogo {
+  transition: transform 0.5s; // Agrega una transición para que la rotación sea suave
+}
+
+.rotated {
+  transform: rotate(360deg); // Una vuelta completa, cada clic
 }

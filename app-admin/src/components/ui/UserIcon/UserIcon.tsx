@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import styles from "./UserIcon.module.scss";
 import { signIn, signOut, useSession } from "next-auth/react";
@@ -20,10 +21,10 @@ const UserIcon = () => {
         height="50px"
         icon="logout"
       />
-      <div className={styles.userIconInfo}>
+      {/* <div className={styles.userIconInfo}>
         <h1>{session?.user.email}</h1>
         <p>{session?.user?.exp}</p>
-      </div>
+      </div> */}
     </div>
   );
 };
