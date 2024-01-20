@@ -1,6 +1,6 @@
 import { IProduct } from "@/interfaces/product";
 import React, { useEffect } from "react";
-
+import Image from "next/image";
 import styles from "./Product2.module.scss";
 import { useProduct, useUi } from "@/store/hooks";
 import Favorite from "../Favorite";
@@ -23,7 +23,7 @@ const Product2: React.FC<IProduct2> = ({ product }) => {
   return (
     <>
       <div className={styles.product2}>
-        <img className={styles.imgProduct2} src={product.img} alt="" />
+        <Image className={styles.imgProduct2} src={product.img} alt="" />
         <h1 className={styles.contenName}>{product.name}</h1>
         <div className={styles.price}>
           <p>{`$ ${product.price}`}</p>

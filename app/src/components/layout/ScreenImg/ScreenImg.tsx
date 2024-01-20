@@ -2,6 +2,7 @@
 import React, { ReactNode, useState } from "react";
 
 import styles from "./ScreenImg.module.scss";
+import Image from "next/image";
 
 interface IScreenImg {
   img: string;
@@ -16,7 +17,7 @@ const ScreenImg: React.FC<IScreenImg> = ({ img, children }) => {
       className={styles.scrennImg}
       style={{ height: active ? "100vh" : "0vh" }}
     >
-      <img className={styles.imgMain} src={img} alt="" />
+      <Image className={styles.imgMain} src={img} alt="" />
 
       <div className={styles.contentScreen}>
         {children}

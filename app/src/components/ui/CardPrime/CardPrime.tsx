@@ -3,6 +3,7 @@ import React from "react";
 import styles from "./CardPrime.module.scss";
 import { formatPrice } from "@/utils/format";
 import { useComercio } from "@/store/hooks";
+import Image from "next/image";
 
 interface ICard {}
 
@@ -35,7 +36,7 @@ const CardPrime: React.FC<ICard> = () => {
           <div className={styles.num}>
             <span>{key + 1}</span>
           </div>
-          <img className={styles.cardImg} src={prod.img} alt="" />
+          <Image className={styles.cardImg} src={prod.img} alt="" />
           <div className={styles.cardDes}>
             <h1 className={styles.name}>{prod.name}</h1>
             <p className={styles.description}>{prod.description}</p>

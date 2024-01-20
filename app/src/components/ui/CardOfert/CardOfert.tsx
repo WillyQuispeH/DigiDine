@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./CardOfet.module.scss";
+import Image from "next/image";
 
 interface CardScrollProps {
   cards: { img: string; name: string; oferta: string; des: string }[];
@@ -40,7 +41,7 @@ const CardOfert: React.FC<CardScrollProps> = ({ cards }) => {
             index === currentIndex ? styles.active : ""
           }`}
         >
-          <img src={card.img} alt="" />
+          <Image src={card.img} alt="" />
           <div className={styles.contentInfo}>
             <p>{card.oferta}</p>
             <h1> {card.name}</h1>

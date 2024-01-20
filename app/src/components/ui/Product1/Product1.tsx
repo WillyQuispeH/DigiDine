@@ -3,6 +3,7 @@ import styles from "./Product1.module.scss";
 import { IProduct } from "@/interfaces/product";
 import { useProduct, useUi } from "@/store/hooks";
 import Favorite from "../Favorite";
+import Image from "next/image";
 
 interface IProduct1 {
   product: IProduct;
@@ -22,7 +23,7 @@ const Product1: React.FC<IProduct1> = ({ product }) => {
   return (
     <div className={styles.cardProduct}>
       <div className={styles.contenImg}>
-        <img src={product.img} alt="ImgPrd" />
+        <Image src={product.img} alt="ImgPrd" />
         <div className={styles.favorite}>
           <span className="material-symbols-outlined">award_star</span>
           4.5

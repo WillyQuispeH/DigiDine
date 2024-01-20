@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Card.module.scss";
 import { useComercio } from "@/store/hooks";
+import Image from "next/image";
 
 interface ICard {}
 
@@ -12,7 +13,7 @@ const CardCatCircle: React.FC<ICard> = () => {
     <div className={styles.contenCircles}>
       {category.map((card, key) => (
         <div key={key} className={`${styles.cardCatCircle} `}>
-          <img src={card.img} alt="" />
+          <Image src={card.img} alt="" />
           <p>{card.name}</p>
         </div>
       ))}
