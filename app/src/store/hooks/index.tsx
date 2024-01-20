@@ -1,3 +1,4 @@
 import useComercio from "./useComercio";
-
-export { useComercio };
+import useProduct from "./useProduct";
+import useUi from "./useUi";
+export { useComercio, useProduct, useUi };

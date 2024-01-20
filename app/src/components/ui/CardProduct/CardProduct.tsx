@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import styles from "./CardProduct.module.scss";
 import { useComercio } from "@/store/hooks";
 import Link from "next/link";
+import Product1 from "../Product1";
 
 const CardProduct = () => {
   const { comercio, getByIdComercio } = useComercio();
@@ -22,7 +23,10 @@ const CardProduct = () => {
           <div className={styles.cotentTilteCat}>
             <h1>
               {category.name}
-              <Link href={`/category/${category.id}`}>
+              <Link
+                href={`/category/${category.id}`}
+                className={styles.infoCategory}
+              >
                 <span className="material-symbols-outlined">page_info</span>
               </Link>
             </h1>
@@ -30,22 +34,7 @@ const CardProduct = () => {
           </div>
           <div className={styles.contentProduct}>
             {category.products.map((product, key) => (
-              <div key={key} className={styles.cardProduct} onClick={() => {}}>
-                <div className={styles.contenImg}>
-                  <img src={product.img} alt="ImgPrd" />
-                  <div className={styles.favorite}>
-                    <span className="material-symbols-outlined">
-                      award_star
-                    </span>
-                    4.5
-                  </div>
-                </div>
-                <div className={styles.contenName}>{product.name}</div>
-                <div className={styles.price}>
-                  <p>{`$ ${product.price}`}</p>
-                  <span className="material-symbols-outlined">favorite</span>
-                </div>
-              </div>
+              <Product1 key={key} product={product} />
             ))}
           </div>
         </div>

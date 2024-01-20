@@ -3,38 +3,92 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rebeccapurple;
-  width: 400px;
-  height: 180px;
-  border: 2px solid #fff;
-  border-radius: 10px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 
-  img {
+  .imgCategory {
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 
-  .categoryInfo {
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
-    width: 100%;
-    height: 100%;
+  .contentMainCategory {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
     flex-direction: column;
     position: absolute;
-    color: white;
-    padding: 0 50px;
-
-    span {
-      background-color: rgb(255, 255, 255);
-      color: #000000;
-      font-weight: 700;
-
-      padding: 10px;
-      border-radius: 10px;
-      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    }
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    gap: 20px;
   }
+}
+
+.contentTitle {
+  margin-top: 80px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.contenTopProduct {
+  background: transparent;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  h1 {
+    width: 100%;
+    padding: 0 15px;
+    font-size: 25px;
+    color: white;
+  }
+}
+
+.contenDescription {
+  width: 90%;
+  text-align: center;
+  color: white;
+}
+
+.contenAllProduct {
+  background: transparent;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  h1 {
+    width: 100%;
+    padding: 0 15px;
+    font-size: 25px;
+    color: white;
+  }
+}
+
+.contentItems {
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.cotentItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
 }

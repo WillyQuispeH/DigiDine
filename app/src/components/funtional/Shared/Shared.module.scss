@@ -1,15 +1,28 @@
 @import "../../../styles/mixins.scss";
 .shared {
   display: flex;
-  margin-top: 80px;
   gap: 20px;
 
-  @include media-xl() {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.contenTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  z-index: 2;
+
+  .msgInicio {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
   }
 }
+
 .contenImge {
   display: flex;
   align-items: center;

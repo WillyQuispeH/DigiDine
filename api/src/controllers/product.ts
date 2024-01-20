@@ -131,4 +131,28 @@ const create = async (req: Request, res: Response) => {
   }
 };
 
-export { getAllByRestaurantId, create };
+const addFavorite = async (req: any, res: any) => {
+  try {
+    const { product_id } = req.body;
+    const result = await ProductModels.addFavorite(product_id);
+    createLogger.info({
+      model: "product/addFavorite",
+      data: req.body,
+    });
+
+    if (!result.success) {
+      createLogger.error({
+        model: "product/addFavorite",
+        error: result.error,
+      });
+
+      res.status(500).json({ success: false, data: null, error: result.error });
+      return;
+    }
+    res.status(200).json(result);
+  } catch (e: any) {
+    res.status(500).json({ success: false, data: null, error: e as Error });
+  }
+};
+
+export { getAllByRestaurantId, create, addFavorite };

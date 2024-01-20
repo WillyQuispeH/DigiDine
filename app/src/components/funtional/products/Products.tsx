@@ -1,8 +1,9 @@
 import React from "react";
-import styles from "./Product.module.scss";
 import ScreenImg from "@/components/layout/ScreenImg";
 import CardProduct from "@/components/ui/CardProduct";
-import NavBar from "@/components/ui/NavBar";
+
+import styles from "./Product.module.scss";
+import ScreenLike from "@/components/layout/ScreenLike";
 
 const Product = () => {
   return (

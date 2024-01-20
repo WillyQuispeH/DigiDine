@@ -11,5 +11,6 @@ ProductRouter.get(
 );
 
 ProductRouter.post("/create", auth, ProductConttollers.create);
+ProductRouter.post("/addFavorite", auth, ProductConttollers.addFavorite);
 
 export default ProductRouter;

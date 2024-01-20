@@ -1,4 +1,5 @@
 import pool from "../utils/database";
+
 const getAllByRestaurantId = async (restaurant_id: string) => {
   try {
     const resultDataBase = await pool.query(
@@ -48,4 +49,26 @@ const create = async (
   }
 };
 
-export { getAllByRestaurantId, create };
+const addFavorite = async (product_id: string) => {
+  try {
+    const resultDataBase = await pool.query(
+      `UPDATE app.product
+      SET favorite = favorite + 1
+      WHERE id = $1 RETURNING *; `,
+      [product_id]
+    );
+    return {
+      success: true,
+      data: resultDataBase.rows[0] || null,
+      error: null,
+    };
+  } catch (e) {
+    return {
+      success: false,
+      data: null,
+      error: (e as Error).message,
+    };
+  }
+};
+
+export { getAllByRestaurantId, create, addFavorite };

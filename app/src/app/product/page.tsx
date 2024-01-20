@@ -1,8 +1,8 @@
-import Product from "@/components/funtional/Product";
+import Products from "@/components/funtional/products";
 import React from "react";
 
 const PageProduct = () => {
-  return <Product />;
+  return <Products />;
 };
 
 export default PageProduct;

@@ -15,11 +15,15 @@ const CardPrime: React.FC<ICard> = () => {
       category.products
         .filter((product) => product.favorite > 0)
         .sort((a, b) => b.favorite - a.favorite)
-        .slice(0, 9)
+        .slice(0, 10)
     )
     .map((product) => {
       if (product.favorite < 56) {
-        product.favorite = Math.floor(Math.random() * (100 - 10 + 1)) + 10;
+        const newFavorite = Math.floor(Math.random() * (100 - 10 + 1)) + 10;
+        console.log(
+          `Changing favorite for product ${product.id} to ${newFavorite}`
+        );
+        product.favorite = newFavorite;
       }
       return product;
     });

@@ -1,0 +1,42 @@
+{"level":"info","message":"API listening port 3005","timestamp":"2024-01-14 18:20:25"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-01-14 18:20:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-14 18:20:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-14 18:20:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-14 18:21:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-14 18:21:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-14 18:21:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-14 18:21:30"}
+{"level":"info","message":{"body":{"product_id":"a6753673-9c78-461a-994d-85e264be78d9"},"method":"POST","params":"","query":"","url":"/api/product/addFavorite"},"timestamp":"2024-01-14 18:21:38"}
+{"level":"info","message":{"data":{"product_id":"a6753673-9c78-461a-994d-85e264be78d9"},"model":"product/addFavorite"},"timestamp":"2024-01-14 18:21:38"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-01-14 19:01:20"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-01-14 19:01:21"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-14 19:01:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-14 19:01:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-14 19:01:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-14 19:01:42"}
+{"level":"info","message":{"body":{"product_id":"d4077359-bc96-49ef-9926-80b490538943"},"method":"POST","params":"","query":"","url":"/api/product/addFavorite"},"timestamp":"2024-01-14 19:02:15"}
+{"level":"info","message":{"data":{"product_id":"d4077359-bc96-49ef-9926-80b490538943"},"model":"product/addFavorite"},"timestamp":"2024-01-14 19:02:15"}
+{"level":"info","message":{"body":{"product_id":"b6857c73-619a-4245-94c4-1a104a2f0323"},"method":"POST","params":"","query":"","url":"/api/product/addFavorite"},"timestamp":"2024-01-14 19:03:15"}
+{"level":"info","message":{"data":{"product_id":"b6857c73-619a-4245-94c4-1a104a2f0323"},"model":"product/addFavorite"},"timestamp":"2024-01-14 19:03:15"}
+{"level":"info","message":{"body":{"product_id":"3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"method":"POST","params":"","query":"","url":"/api/product/addFavorite"},"timestamp":"2024-01-14 19:03:36"}
+{"level":"info","message":{"data":{"product_id":"3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"model":"product/addFavorite"},"timestamp":"2024-01-14 19:03:37"}
+{"level":"info","message":{"body":{"product_id":"f12ea2e7-1a43-4b64-a0d8-f139245aa178"},"method":"POST","params":"","query":"","url":"/api/product/addFavorite"},"timestamp":"2024-01-14 19:03:54"}
+{"level":"info","message":{"data":{"product_id":"f12ea2e7-1a43-4b64-a0d8-f139245aa178"},"model":"product/addFavorite"},"timestamp":"2024-01-14 19:03:54"}
+{"level":"info","message":{"body":{"product_id":"5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"method":"POST","params":"","query":"","url":"/api/product/addFavorite"},"timestamp":"2024-01-14 19:04:02"}
+{"level":"info","message":{"data":{"product_id":"5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"model":"product/addFavorite"},"timestamp":"2024-01-14 19:04:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-14 19:17:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-14 19:17:09"}
+{"level":"info","message":{"body":{"product_id":"88d259b4-425a-4204-862d-32d5f1f87e53"},"method":"POST","params":"","query":"","url":"/api/product/addFavorite"},"timestamp":"2024-01-14 19:17:11"}
+{"level":"info","message":{"data":{"product_id":"88d259b4-425a-4204-862d-32d5f1f87e53"},"model":"product/addFavorite"},"timestamp":"2024-01-14 19:17:11"}
+{"level":"info","message":{"body":{"product_id":"83100d34-62d4-43a8-8134-c974a5dd603a"},"method":"POST","params":"","query":"","url":"/api/product/addFavorite"},"timestamp":"2024-01-14 19:17:15"}
+{"level":"info","message":{"data":{"product_id":"83100d34-62d4-43a8-8134-c974a5dd603a"},"model":"product/addFavorite"},"timestamp":"2024-01-14 19:17:15"}
+{"level":"info","message":{"body":{"product_id":"9836e567-7068-46b5-9d1e-e8662ffa0468"},"method":"POST","params":"","query":"","url":"/api/product/addFavorite"},"timestamp":"2024-01-14 19:17:19"}
+{"level":"info","message":{"data":{"product_id":"9836e567-7068-46b5-9d1e-e8662ffa0468"},"model":"product/addFavorite"},"timestamp":"2024-01-14 19:17:19"}
+{"level":"info","message":{"body":{"product_id":"7c46cef8-ded3-4cf6-880d-6271763fea08"},"method":"POST","params":"","query":"","url":"/api/product/addFavorite"},"timestamp":"2024-01-14 19:17:21"}
+{"level":"info","message":{"data":{"product_id":"7c46cef8-ded3-4cf6-880d-6271763fea08"},"model":"product/addFavorite"},"timestamp":"2024-01-14 19:17:21"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-14 19:18:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-14 19:18:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-14 19:21:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-14 19:21:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-14 19:23:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-14 19:23:09"}

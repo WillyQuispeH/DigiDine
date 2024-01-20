@@ -17,8 +17,6 @@ const Welcome = () => {
     }
   }, []);
 
-  console.log(comercio);
-
   const cards = [
     {
       img: "https://png.pngtree.com/png-clipart/20230629/original/pngtree-anime-girl-eating-noodles-png-image_9237162.png",
@@ -38,7 +36,6 @@ const Welcome = () => {
       name: "mi nombre 3",
       oferta: "% 50 Des.",
     },
-    // Agrega más tarjetas según sea necesario
   ];
 
   return (
@@ -46,14 +43,12 @@ const Welcome = () => {
       <ScreenImg img="https://media-cdn.tripadvisor.com/media/photo-s/1a/19/28/8e/nuestra-charlie-burger.jpg">
         <Comercio />
       </ScreenImg>
-
       <div>
         <CardOfert cards={cards} />
       </div>
       <div>
         <CardCatCircle />
       </div>
-
       <div>
         <CardPrime />
       </div>

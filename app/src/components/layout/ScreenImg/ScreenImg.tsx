@@ -1,4 +1,5 @@
-import React, { ReactNode } from "react";
+"use client";
+import React, { ReactNode, useState } from "react";
 
 import styles from "./ScreenImg.module.scss";
 
@@ -8,15 +9,23 @@ interface IScreenImg {
 }
 
 const ScreenImg: React.FC<IScreenImg> = ({ img, children }) => {
+  const [active, setActive] = useState(true);
+
   return (
-    <div className={styles.scrennImg}>
+    <div
+      className={styles.scrennImg}
+      style={{ height: active ? "100vh" : "0vh" }}
+    >
       <img className={styles.imgMain} src={img} alt="" />
 
       <div className={styles.contentScreen}>
         {children}
 
         <p className={styles.msgInicio}>DigiDine by Gaman</p>
-        <span className={`material-symbols-outlined ${styles.spanArrow}`}>
+        <span
+          className={`material-symbols-outlined ${styles.spanArrow}`}
+          onClick={() => setActive(!active)}
+        >
           keyboard_double_arrow_down
         </span>
       </div>

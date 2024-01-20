@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { useSpring, animated } from "react-spring";
-import { BsCircleFill } from "react-icons/bs";
 import styles from "./CardOfet.module.scss";
 
 interface CardScrollProps {

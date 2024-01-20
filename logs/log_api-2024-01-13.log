@@ -1,0 +1,48 @@
+{"level":"info","message":"API listening port 3005","timestamp":"2024-01-12 21:10:08"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-01-12 21:10:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-12 21:10:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-12 21:10:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-12 21:21:49"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-12 21:21:49"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-01-13 12:38:17"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-01-13 12:38:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 12:39:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 12:39:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 12:41:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 12:41:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 12:43:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 12:43:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 12:55:34"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 12:55:34"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:14:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:14:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:14:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:14:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:17:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:17:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:18:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:18:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:18:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:18:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:19:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:19:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:21:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:21:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:22:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:22:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:24:34"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:24:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:57:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:57:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:57:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 13:57:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 14:34:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 14:34:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 14:49:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 14:49:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 14:49:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 14:49:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 14:50:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 14:50:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 14:53:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-01-13 14:53:32"}
