@@ -8,6 +8,7 @@ import { sockets } from "./utils/sockets";
 import multer from "multer";
 import http from "http";
 import path from "path";
+import config from "./utils/config";
 
 const corsOptions = {
   origin: ["https://digidine-opcs.onrender.com/"],
@@ -23,7 +24,7 @@ const corsOPtionsDev = {
 
 function initializeMiddlewares(server: Express) {
   server.use(express.json({ limit: "100mb" }));
-  if (process.env.NODE_ENV === "production") {
+  if (config.node_env === "production") {
     server.use(cors(corsOptions));
   } else {
     server.use(cors(corsOPtionsDev));
