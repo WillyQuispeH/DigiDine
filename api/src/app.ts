@@ -10,7 +10,7 @@ import http from "http";
 import path from "path";
 
 const corsOptions = {
-  origin: ["https://gaman.startup"],
+  origin: ["https://digidine-opcs.onrender.com/"],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type,Authorization", "Content-Type", "id"],
 };
