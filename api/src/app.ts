@@ -20,6 +20,7 @@ const corsOPtionsDev = {
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type,Authorization", "Content-Type", "id"],
 };
+console.log({ Variavles: process.env });
 
 function initializeMiddlewares(server: Express) {
   server.use(express.json({ limit: "100mb" }));
