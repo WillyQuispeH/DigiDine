@@ -12,7 +12,7 @@ import path from "path";
 const corsOptions = {
   origin: ["https://digidine-opcs.onrender.com/"],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-  allowedHeaders: ["Content-Type,Authorization", "Content-Type", "id"],
+  allowedHeaders: ["Content-Type", "Authorization", "id"],
 };
 
 const corsOPtionsDev = {

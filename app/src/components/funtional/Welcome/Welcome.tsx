@@ -7,6 +7,7 @@ import CardCatCircle from "@/components/ui/CardCatCircle";
 import CardPrime from "@/components/ui/CardPrime";
 import ScreenImg from "@/components/layout/ScreenImg";
 import { useComercio } from "@/store/hooks";
+import config from "@/utils/config";
 
 const Welcome = () => {
   const { comercio, getByIdComercio } = useComercio();
@@ -16,6 +17,7 @@ const Welcome = () => {
       getByIdComercio("ae584ccd-b691-4619-aabf-7b15539743ee");
     }
   }, []);
+  console.log(config);
 
   const cards = [
     {
