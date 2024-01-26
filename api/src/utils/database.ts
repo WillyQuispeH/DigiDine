@@ -14,12 +14,7 @@ const pool = new Pool({
   password: config.db_password,
   port: 5432,
   keepAlive: true,
-  ssl:
-    process.env.NODE_ENV === "develop"
-      ? false
-      : {
-          ca: fs.readFileSync(path.join(__dirname, "/certificate.crt")),
-        },
+  ssl: { rejectUnauthorized: false },
 });
 
 pool.connect(function (err) {

@@ -1,2 +1,12 @@
 {"level":"info","message":"API listening port 3005","timestamp":"2024-01-26 10:35:10"}
 {"level":"info","message":"Connected to Database","timestamp":"2024-01-26 10:35:10"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-01-26 10:41:01"}
+{"level":"error","message":"ERROR connecting to Database: error: connection is insecure (try using `sslmode=require`)","timestamp":"2024-01-26 10:41:01"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-01-26 10:43:00"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-01-26 10:43:05"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-01-26 10:44:04"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-01-26 10:44:05"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-01-26 10:44:26"}
+{"level":"error","message":"ERROR connecting to Database: Error: The server does not support SSL connections","timestamp":"2024-01-26 10:44:26"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-01-26 10:44:52"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-01-26 10:44:53"}
