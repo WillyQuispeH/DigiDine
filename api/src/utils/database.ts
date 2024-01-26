@@ -20,6 +20,7 @@ pool.connect(function (err: any) {
     createLogger.error(`ERROR connecting to Database: ${err}`);
   } else {
     createLogger.info(`Connected to Database`);
+    createLogger.info(config);
   }
 });
 
