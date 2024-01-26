@@ -1,6 +1,4 @@
 import pg from "pg";
-import path from "path";
-import fs from "fs";
 
 import config from "./config";
 import createLogger from "../utils/logger";
@@ -17,7 +15,7 @@ const pool = new Pool({
   ssl: { rejectUnauthorized: false },
 });
 
-pool.connect(function (err) {
+pool.connect(function (err: any) {
   if (err) {
     createLogger.error(`ERROR connecting to Database: ${err}`);
   } else {
