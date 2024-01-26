@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Gaman",
   "license": "MIT",
+  "module": "CommonJS",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cloudinary": "^1.41.0",
@@ -30,7 +31,7 @@
   },
   "scripts": {
     "dev": "nodemon src/server.ts",
-    "start": "node src/server.ts",
+    "start": "node dist/server.js",
     "build": "tsc"
   }
 }
