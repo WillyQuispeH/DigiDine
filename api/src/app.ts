@@ -11,13 +11,17 @@ import path from "path";
 import config from "./utils/config";
 
 const corsOptions = {
-  origin: ["https://digidine-opcs.onrender.com/"],
+  origin: ["https://digidine-opcs.onrender.com"],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization", "id"],
+  allowedHeaders: ["Content-Type,Authorization", "Content-Type", "id"],
 };
 
 const corsOPtionsDev = {
-  origin: ["http://localhost:3002", "http://localhost:3000"],
+  origin: [
+    "http://localhost:3002",
+    "http://localhost:3000",
+    "https://digidine-opcs.onrender.com",
+  ],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type,Authorization", "Content-Type", "id"],
 };
