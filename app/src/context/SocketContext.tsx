@@ -7,7 +7,7 @@ const SocketContext = createContext<any>(null);
 
 const SocketProvider = ({ children }: any) => {
   const { socket, online, conectarSocket, desconectarSocket } = useSocket(
-    "http://localhost:3005"
+    "https://digidine-opcs.onrender.com/"
   );
 
   const login = true;
