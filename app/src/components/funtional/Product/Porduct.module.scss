@@ -1,0 +1,98 @@
+.product {
+  width: 100%;
+  position: relative;
+}
+// .imgProdutct {
+//   width: 100%;
+//   height: 80vh;
+//   object-fit: cover;
+//   object-position: center;
+// }
+
+.contentInfoPro {
+  background: #151518;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  top: 60vh;
+}
+
+.principal {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 3px;
+  color: white;
+
+  h1 {
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #d17842;
+  }
+}
+
+.price {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  width: 100%;
+  text-align: start;
+  padding: 0 10px;
+}
+
+.description {
+  width: 100%;
+  text-align: justify;
+  color: white;
+  font-weight: 300;
+  padding: 0 10px;
+}
+
+.ingredients {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titleIngredients {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: start;
+  color: white;
+  font-size: 18px;
+}
+
+.contentIngredients {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.itemIngredients {
+  width: 100%;
+  text-align: start;
+  color: white;
+  padding: 0 10px;
+}

@@ -1,10 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import styles from "./SideBar.module.scss";
-import { useUi } from "@/store/hooks";
-import { usePathname, useParams, useRouter } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 
-import Link from "next/link";
 import UserIcon from "../UserIcon";
 
 const SideBar = () => {
@@ -13,7 +11,7 @@ const SideBar = () => {
   const params = useParams();
 
   const data = [
-    { icon: "delete", path: "/dashboard/", text: "Restaurants" },
+    { icon: "storefront", path: "/dashboard/", text: "Restaurants" },
 
     {
       icon: "add_business",

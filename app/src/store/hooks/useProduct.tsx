@@ -11,7 +11,12 @@ const useProduct = () => {
     loading: state.loading,
   }));
 
-  const { addFavorite, reset: resetProduct } = productStore();
+  const {
+    addFavorite,
+    reset: resetProduct,
+    getById: getByIdProduct,
+    createReview,
+  } = productStore();
 
   return {
     product,
@@ -19,6 +24,8 @@ const useProduct = () => {
     listProduct,
     addFavorite,
     resetProduct,
+    getByIdProduct,
+    createReview,
   };
 };
 

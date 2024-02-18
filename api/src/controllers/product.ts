@@ -4,6 +4,7 @@ import config from "../utils/config";
 
 import * as ProductModels from "../models/product";
 import * as IngredientsModels from "../models/ingredients";
+import * as PersonModels from "../models/person";
 import { v2 as cloudinary } from "cloudinary";
 import fs from "fs";
 
@@ -131,7 +132,7 @@ const create = async (req: Request, res: Response) => {
   }
 };
 
-const addFavorite = async (req: any, res: any) => {
+const addFavorite = async (req: Request, res: Response) => {
   try {
     const { product_id } = req.body;
     const result = await ProductModels.addFavorite(product_id);
@@ -155,4 +156,99 @@ const addFavorite = async (req: any, res: any) => {
   }
 };
 
-export { getAllByRestaurantId, create, addFavorite };
+const getById = async (req: any, res: any) => {
+  try {
+    const { product_id } = req.params;
+    const result = await ProductModels.getById(product_id);
+    createLogger.info({
+      model: "product/getById",
+      data: req.body,
+    });
+
+    if (!result.success) {
+      createLogger.error({
+        model: "product/getById",
+        error: result.error,
+      });
+
+      res.status(500).json({ success: false, data: null, error: result.error });
+      return;
+    }
+    res.status(200).json(result);
+  } catch (e: any) {
+    res.status(500).json({ success: false, data: null, error: e as Error });
+  }
+};
+
+const createReviews = async (req: Request, res: Response) => {
+  try {
+    const {
+      product_id,
+      name,
+      parternalLastName,
+      maternalLastName,
+      email,
+      phone,
+      review,
+    } = req.body;
+
+    const resPerson = await PersonModels.create(
+      email,
+      name,
+      parternalLastName,
+      maternalLastName,
+      phone,
+      "https://png.pngtree.com/png-vector/20210224/ourlarge/pngtree-customer-login-avatar-png-image_2939385.jpg"
+    );
+
+    if (!resPerson.success) {
+      createLogger.error({
+        model: "person/create",
+        error: resPerson.error,
+      });
+
+      res
+        .status(500)
+        .json({ success: false, data: null, error: resPerson.error });
+      return;
+    }
+
+    const resReview = await ProductModels.createReview(
+      product_id,
+      resPerson.data.id,
+      review
+    );
+
+    if (!resReview.success) {
+      createLogger.error({
+        model: "person/create",
+        error: resReview.error,
+      });
+
+      res
+        .status(500)
+        .json({ success: false, data: null, error: resReview.error });
+      return;
+    }
+
+    const result = await ProductModels.getById(product_id);
+    createLogger.info({
+      model: "product/getById",
+      data: req.body,
+    });
+
+    if (!result.success) {
+      createLogger.error({
+        model: "product/getById",
+        error: result.error,
+      });
+
+      res.status(500).json({ success: false, data: null, error: result.error });
+      return;
+    }
+    res.status(200).json(result);
+  } catch (e: any) {
+    res.status(500).json({ success: false, data: null, error: e as Error });
+  }
+};
+export { getAllByRestaurantId, create, addFavorite, getById, createReviews };

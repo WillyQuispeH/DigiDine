@@ -1,7 +1,8 @@
+import Product from "@/components/funtional/Product";
 import React from "react";
 
 const page = () => {
-  return <div>page</div>;
+  return <Product />;
 };
 
 export default page;

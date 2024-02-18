@@ -1,0 +1,28 @@
+.cartType {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  overflow: auto;
+}
+
+.cartTypeITem {
+  padding: 2px 10px;
+  min-height: 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  p {
+    white-space: nowrap;
+    color: white;
+    font-size: 15px;
+  }
+  span {
+    color: white;
+    font-size: 20px;
+  }
+}

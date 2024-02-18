@@ -3,9 +3,6 @@ import React, { useState, ChangeEvent, useEffect } from "react";
 import styles from "./ImgCropper.module.scss";
 import Cropper from "react-easy-crop";
 import getCroppedImg from "./cropImg";
-import useProduct from "@/store/hooks/useProduct";
-import { IProduct } from "@/interfaces/product";
-import ButtonIcon from "../ButtonIcon";
 import { useFile } from "@/store/hooks";
 import { Column } from "@/components/layout/Generic";
 
@@ -27,10 +24,8 @@ const ImgCropper = () => {
     height: 100,
   });
   const [croppedImage, setCroppedImage] = useState<string | null>(null);
-  const [blodImg, setBlodImg] = useState<Blob | null>(null);
 
-  const { setProduct, product } = useProduct();
-  const { addFile, file, setFileBlob } = useFile();
+  const { setFileBlob } = useFile();
 
   const onCropComplete = React.useCallback(
     (croppedArea: any, croppedAreaPixels: IcropperPixels) => {
@@ -38,6 +33,11 @@ const ImgCropper = () => {
     },
     []
   );
+  useEffect(() => {
+    if (image) {
+      croppedImagePro();
+    }
+  }, [croppedAreaPixels]);
 
   const onFileChange = (e: ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -59,7 +59,6 @@ const ImgCropper = () => {
         const croppedImage = await getCroppedImg(image, croppedAreaPixels);
 
         if (croppedImage) {
-          setBlodImg(croppedImage);
           setFileBlob(croppedImage);
           setCroppedImage(URL.createObjectURL(croppedImage));
         }
@@ -69,23 +68,6 @@ const ImgCropper = () => {
       }
     }
   };
-
-  // const uploadServer = () => {
-  //   if (blodImg) {
-  //     const formData = new FormData();
-  //     formData.append("file", blodImg, "miImgen");
-  //     addFile(formData);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   if (file.public_id) {
-  //     setProduct({
-  //       ...product,
-  //       img: file.url,
-  //     });
-  //   }
-  // }, [file]);
 
   useEffect(() => {
     const reactEasyCropContainers = document.getElementsByClassName(
@@ -102,29 +84,15 @@ const ImgCropper = () => {
     <div className={styles.imgCropper}>
       <div className={styles.contenentControlsCropper}>
         <div className={styles.contenControls}>
-          <Column gap="5px">
-            <label htmlFor="fileCropper">
-              <span className="material-symbols-outlined">file_present</span>
-            </label>
-            <input
-              type="file"
-              id="fileCropper"
-              onChange={onFileChange}
-              accept="image/*"
-            />
-            <ButtonIcon
-              onClick={croppedImagePro}
-              width="40px"
-              height="40px"
-              icon="outbox_alt"
-            />
-          </Column>
-          {/* <ButtonIcon
-            onClick={uploadServer}
-            width="40px"
-            height="40px"
-            icon="cloud_upload"
-          /> */}
+          <label htmlFor="fileCropper">
+            <span className="material-symbols-outlined">file_present</span>
+          </label>
+          <input
+            type="file"
+            id="fileCropper"
+            onChange={onFileChange}
+            accept="image/*"
+          />
         </div>
         <div className={styles.contenMainCrop}>
           {image ? (

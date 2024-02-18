@@ -36,6 +36,7 @@
   flex-direction: column;
   gap: 5px;
   z-index: 2;
+  margin-bottom: 40px;
 
   .msgInicio {
     color: white;
@@ -46,5 +47,11 @@
     font-size: 38px;
     font-weight: 800;
     color: white;
+    cursor: pointer;
+    transition: transform 0.3s linear;
+
+    &:active {
+      transform: scale(0.9);
+    }
   }
 }

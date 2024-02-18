@@ -15,6 +15,7 @@ const useComercio = () => {
     create: createComercio,
     getByPersonId,
     setComercio,
+    getByName: getByIdNameComercio,
     getById: getByIdComercio,
     updateCategoryProduct,
   } = comercioStore();
@@ -25,7 +26,7 @@ const useComercio = () => {
     getByPersonId,
     getByIdComercio,
     updateCategoryProduct,
-
+    getByIdNameComercio,
     comercio,
     loadingComercio,
     listComercio,

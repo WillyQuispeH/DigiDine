@@ -1,0 +1,217 @@
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 22:34:22"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 22:34:22"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 22:34:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-11 22:34:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-11 22:34:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 22:34:58"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 22:34:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 22:34:58"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 22:34:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 22:44:03"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 22:44:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 22:44:03"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 22:44:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 22:46:02"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 22:46:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 22:46:02"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 22:46:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 22:47:21"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 22:47:21"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 22:47:21"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 22:47:21"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 22:52:55"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 22:52:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 22:52:55"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 22:52:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-11 22:52:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-11 22:52:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 22:53:01"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 22:53:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 22:53:01"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 22:53:01"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:18:44"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:18:44"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:18:44"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:19:53"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:19:53"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:19:53"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:20:08"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:20:08"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:20:08"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:20:43"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:20:43"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:20:43"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:22:28"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:22:28"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:22:28"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:23:38"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:23:38"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:23:38"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:23:44"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:23:44"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:23:44"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:23:52"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:23:52"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:23:52"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:24:12"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:24:12"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:24:12"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:24:20"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:24:20"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:24:20"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:26:22"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:26:22"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:26:22"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:28:08"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:28:08"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:28:08"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:28:44"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:28:44"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:28:44"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:29:31"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:29:31"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:29:31"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:29:59"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:29:59"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:29:59"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:30:07"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:30:07"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:30:07"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:30:13"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:30:13"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:30:13"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:32:04"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:32:04"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:32:04"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:32:24"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:32:24"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:32:24"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:32:35"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:32:35"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:32:35"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:33:39"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:33:39"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:33:39"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:33:49"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:33:49"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:33:49"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:33:57"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:33:57"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:33:57"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-11 23:34:44"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-11 23:34:44"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-11 23:34:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 23:41:25"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 23:41:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 23:41:25"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 23:41:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 23:42:24"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 23:42:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 23:42:24"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 23:42:24"}
+{"level":"info","message":{"body":{"email":"Huamani","maternalLastName":"Quispe","name":"Willy","parternalLastName":"Abad","phone":"957902342","product_id":"5d7f6b0d-c255-453b-b3c9-55299a6d7762","review":"MIcomentarion e wque estuvo ecelente la comida al igual q l aatencvion 10/10"},"method":"POST","params":"","query":"","url":"/api/product/createReviews"},"timestamp":"2024-02-11 23:43:17"}
+{"level":"info","message":{"data":{"email":"Huamani","maternalLastName":"Quispe","name":"Willy","parternalLastName":"Abad","phone":"957902342","product_id":"5d7f6b0d-c255-453b-b3c9-55299a6d7762","review":"MIcomentarion e wque estuvo ecelente la comida al igual q l aatencvion 10/10"},"model":"product/getById"},"timestamp":"2024-02-11 23:43:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-11 23:43:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-11 23:43:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-11 23:43:51"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 23:43:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-11 23:43:51"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 23:43:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-11 23:43:56"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 23:43:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-11 23:43:56"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 23:43:56"}
+{"level":"info","message":{"body":{"email":"QuispeAbadquispe+32@gmail.com","maternalLastName":"quispe","name":"Jose","parternalLastName":"Pafilla","phone":"957902342","product_id":"3ae922f7-a63a-4150-b3b1-6bd8cef5270e","review":"mi comprario qews que stuvo excelente la atencion alguail que la comida."},"method":"POST","params":"","query":"","url":"/api/product/createReviews"},"timestamp":"2024-02-11 23:45:05"}
+{"level":"info","message":{"data":{"email":"QuispeAbadquispe+32@gmail.com","maternalLastName":"quispe","name":"Jose","parternalLastName":"Pafilla","phone":"957902342","product_id":"3ae922f7-a63a-4150-b3b1-6bd8cef5270e","review":"mi comprario qews que stuvo excelente la atencion alguail que la comida."},"model":"product/getById"},"timestamp":"2024-02-11 23:45:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 23:45:24"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 23:45:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 23:45:24"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 23:45:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-11 23:45:31"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 23:45:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-11 23:45:31"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 23:45:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 23:46:20"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 23:46:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"timestamp":"2024-02-11 23:46:20"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 23:46:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-11 23:48:36"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 23:48:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-11 23:48:36"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 23:48:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-11 23:52:18"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 23:52:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-11 23:52:18"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-11 23:52:18"}
+{"level":"info","message":{"body":{"email":"quispeabadquispe@gmail.com","maternalLastName":"huratos","name":"Valeria","parternalLastName":"Gusman","phone":"923423423","product_id":"3ae922f7-a63a-4150-b3b1-6bd8cef5270e","review":"mi comentio es muy cortitop"},"method":"POST","params":"","query":"","url":"/api/product/createReviews"},"timestamp":"2024-02-12 00:09:58"}
+{"level":"info","message":{"data":{"email":"quispeabadquispe@gmail.com","maternalLastName":"huratos","name":"Valeria","parternalLastName":"Gusman","phone":"923423423","product_id":"3ae922f7-a63a-4150-b3b1-6bd8cef5270e","review":"mi comentio es muy cortitop"},"model":"product/getById"},"timestamp":"2024-02-12 00:09:58"}
+{"level":"info","message":{"body":{"email":"quispeabadquispe@gmail.com","maternalLastName":"huratos","name":"Valeria","parternalLastName":"Gusman","phone":"923423423","product_id":"3ae922f7-a63a-4150-b3b1-6bd8cef5270e","review":"mi comentio es muy cortitop"},"method":"POST","params":"","query":"","url":"/api/product/createReviews"},"timestamp":"2024-02-12 00:11:03"}
+{"level":"info","message":{"data":{"email":"quispeabadquispe@gmail.com","maternalLastName":"huratos","name":"Valeria","parternalLastName":"Gusman","phone":"923423423","product_id":"3ae922f7-a63a-4150-b3b1-6bd8cef5270e","review":"mi comentio es muy cortitop"},"model":"product/getById"},"timestamp":"2024-02-12 00:11:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-12 00:11:22"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:11:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-12 00:11:23"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:11:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-12 00:11:32"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:11:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-12 00:11:32"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:11:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-12 00:11:36"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:11:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-12 00:11:36"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:11:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-12 00:13:03"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:13:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-12 00:13:03"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:13:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-12 00:13:08"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:13:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-12 00:13:08"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:13:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-12 00:13:10"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:13:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-12 00:13:10"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:13:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-12 00:22:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-12 00:22:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:22:14"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:22:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:22:14"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:22:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:22:18"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:22:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:22:18"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:22:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:22:21"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:22:21"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:22:21"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:22:21"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:25:41"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:25:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:25:41"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:25:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:25:45"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:25:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:25:45"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:25:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:25:48"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:25:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:25:48"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:25:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:29:38"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:29:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:29:38"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:29:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:30:00"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:30:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:30:00"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:30:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:31:14"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:31:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:31:14"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:31:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:31:57"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:31:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/83100d34-62d4-43a8-8134-c974a5dd603a"},"timestamp":"2024-02-12 00:31:57"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-12 00:31:57"}
+{"level":"info","message":{"body":{"email":"quispeabadqu@gmail.com","maternalLastName":"quispe","name":"Feid","parternalLastName":"nuevo","phone":"972342342","product_id":"83100d34-62d4-43a8-8134-c974a5dd603a","review":"mi comentari nos vamos par maima mi mam un traguii bien wau bailkando "},"method":"POST","params":"","query":"","url":"/api/product/createReviews"},"timestamp":"2024-02-12 00:34:10"}
+{"level":"info","message":{"data":{"email":"quispeabadqu@gmail.com","maternalLastName":"quispe","name":"Feid","parternalLastName":"nuevo","phone":"972342342","product_id":"83100d34-62d4-43a8-8134-c974a5dd603a","review":"mi comentari nos vamos par maima mi mam un traguii bien wau bailkando "},"model":"product/getById"},"timestamp":"2024-02-12 00:34:10"}

@@ -11,7 +11,7 @@ const Qr = () => {
         <span className={styles.bottomRight}></span>
         <span className={styles.topLeft}></span>
         <span className={styles.topRight}></span>
-        <Image
+        <img
           src="https://borealtech.com/wp-content/uploads/2018/10/codigo-qr-1024x1024-1.jpg"
           alt="social"
         />

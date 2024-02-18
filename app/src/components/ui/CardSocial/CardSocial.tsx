@@ -10,7 +10,7 @@ interface ICardSocial {
 const CardSocial = ({ img, name }: ICardSocial) => {
   return (
     <div className={styles.cardSocial}>
-      <Image src={img} alt="socail" />
+      <img src={img} alt="socail" />
       <p>{name}</p>
     </div>
   );

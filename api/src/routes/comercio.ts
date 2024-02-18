@@ -11,6 +11,7 @@ ComercioRouter.get(
   ComercioController.getByPersonId
 );
 ComercioRouter.get("/getById/:comercio_id", auth, ComercioController.getById);
+ComercioRouter.get("/getByName/:name", auth, ComercioController.getByName);
 
 ComercioRouter.post(
   "/updateCategoryProduct",

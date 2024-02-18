@@ -7,17 +7,17 @@ import CardCatCircle from "@/components/ui/CardCatCircle";
 import CardPrime from "@/components/ui/CardPrime";
 import ScreenImg from "@/components/layout/ScreenImg";
 import { useComercio } from "@/store/hooks";
-import config from "@/utils/config";
+import useNavigation from "@/hooksReact/useNavigation";
 
 const Welcome = () => {
-  const { comercio, getByIdComercio } = useComercio();
+  const { comercio, getByIdNameComercio } = useComercio();
+  const { param } = useNavigation();
 
   useEffect(() => {
-    if (!comercio.comercio.id) {
-      getByIdComercio("ae584ccd-b691-4619-aabf-7b15539743ee");
+    if (!comercio.comercio.id && param.n) {
+      getByIdNameComercio(param.n as string);
     }
   }, []);
-  console.log(config);
 
   const cards = [
     {

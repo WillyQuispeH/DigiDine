@@ -1,0 +1,111 @@
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-15 22:39:08"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-15 22:39:08"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-15 22:39:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:40:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:40:34"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:41:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:41:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:42:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:42:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:42:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:42:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:42:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:42:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:42:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:42:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:43:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:43:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:43:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:43:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:43:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:43:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/d4077359-bc96-49ef-9926-80b490538943"},"timestamp":"2024-02-15 22:43:36"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-15 22:43:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/d4077359-bc96-49ef-9926-80b490538943"},"timestamp":"2024-02-15 22:43:36"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-15 22:43:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-15 22:43:44"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-15 22:43:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-15 22:43:44"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-15 22:43:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-15 22:43:59"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-15 22:43:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-15 22:43:59"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-15 22:43:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-15 22:49:56"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-15 22:49:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-15 22:49:56"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-15 22:49:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:50:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:50:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:52:12"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:52:12"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:53:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:53:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:53:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:53:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:53:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 22:53:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/f12ea2e7-1a43-4b64-a0d8-f139245aa178"},"timestamp":"2024-02-15 23:03:33"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-15 23:03:34"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/f12ea2e7-1a43-4b64-a0d8-f139245aa178"},"timestamp":"2024-02-15 23:03:34"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-15 23:03:34"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-15 23:03:37"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-15 23:03:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"timestamp":"2024-02-15 23:03:37"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-15 23:03:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/f12ea2e7-1a43-4b64-a0d8-f139245aa178"},"timestamp":"2024-02-15 23:03:40"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-15 23:03:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/product/getById/f12ea2e7-1a43-4b64-a0d8-f139245aa178"},"timestamp":"2024-02-15 23:03:40"}
+{"level":"info","message":{"data":{},"model":"product/getById"},"timestamp":"2024-02-15 23:03:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 23:07:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 23:07:45"}
+{"level":"info","message":{"body":{"product_id":"5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"method":"POST","params":"","query":"","url":"/api/product/addFavorite"},"timestamp":"2024-02-15 23:07:49"}
+{"level":"info","message":{"data":{"product_id":"5d7f6b0d-c255-453b-b3c9-55299a6d7762"},"model":"product/addFavorite"},"timestamp":"2024-02-15 23:07:49"}
+{"level":"info","message":{"body":{"product_id":"f12ea2e7-1a43-4b64-a0d8-f139245aa178"},"method":"POST","params":"","query":"","url":"/api/product/addFavorite"},"timestamp":"2024-02-15 23:07:56"}
+{"level":"info","message":{"data":{"product_id":"f12ea2e7-1a43-4b64-a0d8-f139245aa178"},"model":"product/addFavorite"},"timestamp":"2024-02-15 23:07:56"}
+{"level":"info","message":{"body":{"product_id":"3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"method":"POST","params":"","query":"","url":"/api/product/addFavorite"},"timestamp":"2024-02-15 23:08:28"}
+{"level":"info","message":{"data":{"product_id":"3ae922f7-a63a-4150-b3b1-6bd8cef5270e"},"model":"product/addFavorite"},"timestamp":"2024-02-15 23:08:28"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-15 23:14:10"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-15 23:14:10"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-15 23:14:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 23:14:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 23:14:26"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-15 23:19:45"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-15 23:19:45"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-15 23:19:45"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-15 23:21:59"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-15 23:22:00"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-15 23:22:00"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-15 23:22:45"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-15 23:22:45"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-15 23:22:45"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-15 23:23:25"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-15 23:23:25"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-15 23:23:25"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-15 23:23:34"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-15 23:23:34"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-15 23:23:34"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-15 23:23:40"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-15 23:23:40"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-15 23:23:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 23:28:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 23:28:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 23:28:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getById/ae584ccd-b691-4619-aabf-7b15539743ee"},"timestamp":"2024-02-15 23:28:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByName/Startup"},"timestamp":"2024-02-15 23:32:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByName/Startup"},"timestamp":"2024-02-15 23:32:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByName/Startuss"},"timestamp":"2024-02-15 23:33:01"}
+{"level":"error","message":{"controller":"comercio/getByName","error":"Cannot read properties of null (reading 'comercio_id')"},"timestamp":"2024-02-15 23:33:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByName/Startuss"},"timestamp":"2024-02-15 23:33:01"}
+{"level":"error","message":{"controller":"comercio/getByName","error":"Cannot read properties of null (reading 'comercio_id')"},"timestamp":"2024-02-15 23:33:01"}
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-15 23:34:10"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-15 23:34:10"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-15 23:34:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByName/Startuss"},"timestamp":"2024-02-15 23:34:12"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByName/Startuss"},"timestamp":"2024-02-15 23:34:12"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByName/Startup"},"timestamp":"2024-02-15 23:39:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByName/Startup"},"timestamp":"2024-02-15 23:39:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByName/Startup"},"timestamp":"2024-02-15 23:40:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByName/Startup"},"timestamp":"2024-02-15 23:40:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByName/Startufdsdfsdf"},"timestamp":"2024-02-15 23:43:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/comercio/getByName/Startufdsdfsdf"},"timestamp":"2024-02-15 23:43:17"}

@@ -60,7 +60,7 @@ const routeMappings = [
   { path: "/api/file", router: routes.FileRouter },
   { path: "/api/category", router: routes.CategoryRouter },
   { path: "/api/product", router: routes.ProductRouter },
-  { path: "/api/gpt", router: routes.GPTRouter },
+  // { path: "/api/gpt", router: routes.GPTRouter },
 ];
 
 function initializeRoutes(server: Express) {

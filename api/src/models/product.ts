@@ -71,4 +71,50 @@ const addFavorite = async (product_id: string) => {
   }
 };
 
-export { getAllByRestaurantId, create, addFavorite };
+const getById = async (product_id: string) => {
+  try {
+    const resultDataBase = await pool.query(
+      `SELECT app.fn_product_get_id($1)::jsonb AS "data";`,
+      [product_id]
+    );
+    return {
+      success: true,
+      data: resultDataBase.rows[0].data || null,
+      error: null,
+    };
+  } catch (e) {
+    return {
+      success: false,
+      data: null,
+      error: (e as Error).message,
+    };
+  }
+};
+
+const createReview = async (
+  product_id: string,
+  person_id: string,
+  review: string
+) => {
+  try {
+    const resultDataBase = await pool.query(
+      `INSERT INTO app."productReviews"
+      ( product_id, person_id, review, "isActive", "date")
+      VALUES( $1, $2, $3, true, CURRENT_TIMESTAMP); `,
+      [product_id, person_id, review]
+    );
+    return {
+      success: true,
+      data: resultDataBase.rows || null,
+      error: null,
+    };
+  } catch (e) {
+    return {
+      success: false,
+      data: null,
+      error: (e as Error).message,
+    };
+  }
+};
+
+export { getAllByRestaurantId, create, addFavorite, getById, createReview };

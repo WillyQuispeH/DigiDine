@@ -12,5 +12,7 @@ ProductRouter.get(
 
 ProductRouter.post("/create", auth, ProductConttollers.create);
 ProductRouter.post("/addFavorite", auth, ProductConttollers.addFavorite);
+ProductRouter.get("/getById/:product_id", auth, ProductConttollers.getById);
+ProductRouter.post("/createReviews", auth, ProductConttollers.createReviews);
 
 export default ProductRouter;

@@ -1,0 +1,31 @@
+.button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #ac6aec 0%, #bb7ff5 100%);
+
+    font-weight: 800;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.3s linear;
+
+    &:active {
+      transform: scale(0.9);
+    }
+
+    &:disabled {
+      pointer-events: none;
+      background: linear-gradient(90deg, #573677 0%, #47305d 100%);
+      color: #dbdbdb;
+    }
+  }
+}

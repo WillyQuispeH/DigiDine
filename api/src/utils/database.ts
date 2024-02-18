@@ -12,7 +12,7 @@ const pool = new Pool({
   password: config.db_password,
   port: 5432,
   keepAlive: true,
-  ssl: { rejectUnauthorized: false },
+  // ssl: { rejectUnauthorized: false },
 });
 
 pool.connect(function (err: any) {

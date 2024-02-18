@@ -16,7 +16,7 @@ const CardCategory: React.FC<ICardCategory> = ({ category }) => {
 
   return (
     <div className={styles.cardCategory}>
-      <Image className={styles.imgCategory} src={category?.img} alt="" />
+      <img className={styles.imgCategory} src={category?.img} alt="" />
       <div className={styles.contentMainCategory}>
         <h1 className={styles.contentTitle}>{category.name}</h1>
         <p className={styles.contenDescription}>{category.description}</p>

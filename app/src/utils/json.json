@@ -1,0 +1,25 @@
+{
+  "id": "5d7f6b0d-c255-453b-b3c9-55299a6d7762",
+  "img": "https://res.cloudinary.com/dzfg8xnxn/image/upload/v1701317902/rlmfwcjwkmvkiedgr9bc.jpg",
+  "name": "Mayo",
+  "price": 5000,
+  "reviews": [
+    {
+      "id": "a248284f-b00e-44a9-a033-7d70244c305e",
+      "date": "2024-02-11T17:30:02.017717",
+      "user": "User3 apellido3 materno3",
+      "avatar": null,
+      "reviews": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi libero assumenda asperiores, suscipit quaerat alias quisquam. Error explicabo quas ut autem reprehenderit sed numquam eaque, animi excepturi vitae. Exercitationem, eligendi?",
+      "person_id": "5d7f6b0d-c255-453b-b3c9-55299a6d7762",
+      "product_id": "5d7f6b0d-c255-453b-b3c9-55299a6d7762"
+    }
+  ],
+  "favorite": 60,
+  "description": "La cocina de autor es poner tu personalidad en lo que haces y ese sentimiento la convierte en algo distinto.",
+  "ingredients": [
+    { "id": "10de577d-1535-4246-8074-356c0dfecb02", "name": "sal" },
+    { "id": "f73a476d-4823-41d0-81af-b0d10b1c1ecf", "name": "aceite" },
+    { "id": "8e36d88b-21da-44a8-8b7b-ee1bf2dbc67e", "name": "limon" },
+    { "id": "0be215d0-4802-47d6-a2ad-deab1f69083e", "name": "ajo" }
+  ]
+}

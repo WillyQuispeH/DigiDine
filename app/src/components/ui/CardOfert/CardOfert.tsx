@@ -37,11 +37,14 @@ const CardOfert: React.FC<CardScrollProps> = ({ cards }) => {
       {cards.map((card, index) => (
         <div
           key={index}
+          style={{
+            backgroundImage: `url('http://res.cloudinary.com/dzfg8xnxn/image/upload/v1702867529/mfbg5orwi5kjo77hfkrl.jpg')`,
+          }}
           className={`${styles.card} ${
             index === currentIndex ? styles.active : ""
           }`}
         >
-          <Image src={card.img} alt="" />
+          <img src={card.img} alt="" />
           <div className={styles.contentInfo}>
             <p>{card.oferta}</p>
             <h1> {card.name}</h1>

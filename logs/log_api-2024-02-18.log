@@ -1,0 +1,3 @@
+{"level":"info","message":"API listening port 3005","timestamp":"2024-02-17 23:55:13"}
+{"level":"info","message":"Connected to Database","timestamp":"2024-02-17 23:55:13"}
+{"level":"info","message":{"OPENAI_API_KEY":"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","api_key":"957902342","api_port":"3005","cloudinary_api_key":"734242724172826","cloudinary_name":"dzfg8xnxn","cloudinary_secret":"1_K4cx2TRHcbd3URjmuHJ_oJU-Y","db_database":"DigiDine","db_host":"localhost","db_password":"Abad957902342...","db_user":"postgres","node_env":"develop"},"timestamp":"2024-02-17 23:55:13"}

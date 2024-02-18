@@ -109,4 +109,20 @@ const getById = async (comercio_id: string) => {
   }
 };
 
-export { create, getByPersonId, getById };
+const getByName = async (name: string) => {
+  try {
+    const resultDataBase = await pool.query(
+      `select comercio_id from app.restaurant r where r."name"  = $1;`,
+      [name]
+    );
+    return {
+      success: true,
+      data: resultDataBase.rows[0] || null,
+      error: null,
+    };
+  } catch (e) {
+    return { success: false, data: null, error: (e as Error).message };
+  }
+};
+
+export { create, getByPersonId, getById, getByName };

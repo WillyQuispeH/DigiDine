@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import styles from "./Favorite.module.scss";
 
 interface IFavorite {
-  onClick: () => void;
+  onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
   active: boolean;
 }
 
 const Favorite: React.FC<IFavorite> = ({ onClick, active }) => {
   const [rotate, setRotate] = useState(false);
 
-  const handleButtonClick = () => {
-    onClick();
+  const handleButtonClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    onClick(e);
     setRotate(true);
     setTimeout(() => {
       setRotate(false);

@@ -109,6 +109,50 @@ const getById = async (req: Request, res: Response) => {
   }
 };
 
+const getByName = async (req: Request, res: Response) => {
+  try {
+    const { name } = req.params;
+
+    const result = await ComercioModels.getByName(name);
+
+    if (!result.success) {
+      createLogger.error({
+        model: "comercio/getByName",
+        error: result.error,
+      });
+      res.status(500).json({ success: false, data: null, error: result.error });
+      return;
+    }
+
+    if (result?.data?.comercio_id) {
+      const resultData = await ComercioModels.getById(result.data.comercio_id);
+
+      if (!resultData.success) {
+        createLogger.error({
+          model: "comercio/getById",
+          error: resultData.error,
+        });
+        res
+          .status(500)
+          .json({ success: false, data: null, error: resultData.error });
+        return;
+      }
+
+      res.status(200).json(resultData);
+      return;
+    }
+    res.status(200).json({ success: true, data: null, error: null });
+  } catch (e) {
+    createLogger.error({
+      controller: "comercio/getByName",
+      error: (e as Error).message,
+    });
+    res
+      .status(500)
+      .json({ success: true, data: null, error: (e as Error).message });
+  }
+};
+
 const updateCategoryProduct = async (req: Request, res: Response) => {
   try {
     const { comercio }: { comercio: IComercio } = req.body;
@@ -161,7 +205,7 @@ const updateCategoryProduct = async (req: Request, res: Response) => {
   }
 };
 
-export { create, getByPersonId, getById, updateCategoryProduct };
+export { create, getByPersonId, getById, updateCategoryProduct, getByName };
 
 const removeData = async (result: ICategory[]) => {
   for (const categoryResult of result) {

@@ -2,7 +2,7 @@
 import React, { ReactNode, useState } from "react";
 
 import styles from "./ScreenImg.module.scss";
-import Image from "next/image";
+import { useScroll } from "@/store/hooks";
 
 interface IScreenImg {
   img: string;
@@ -11,13 +11,14 @@ interface IScreenImg {
 
 const ScreenImg: React.FC<IScreenImg> = ({ img, children }) => {
   const [active, setActive] = useState(true);
+  const { setScroll } = useScroll();
 
   return (
     <div
       className={styles.scrennImg}
       style={{ height: active ? "100vh" : "0vh" }}
     >
-      <Image className={styles.imgMain} src={img} alt="" />
+      <img className={styles.imgMain} src={img} alt="" />
 
       <div className={styles.contentScreen}>
         {children}
@@ -25,7 +26,10 @@ const ScreenImg: React.FC<IScreenImg> = ({ img, children }) => {
         <p className={styles.msgInicio}>DigiDine by Gaman</p>
         <span
           className={`material-symbols-outlined ${styles.spanArrow}`}
-          onClick={() => setActive(!active)}
+          onClick={() => {
+            setActive(!active);
+            setScroll(false);
+          }}
         >
           keyboard_double_arrow_down
         </span>

@@ -13,6 +13,7 @@ type comercioState = {
   create: (person: IPerson, restaurant: IRestaurant) => void;
   getByPersonId: (person_id: string) => void;
   getById: (comercio_id: string) => void;
+  getByName: (name: string) => void;
   setComercio: (comercio: IComercio) => void;
   updateCategoryProduct: (comercio: IComercio) => void;
 };
@@ -74,12 +75,36 @@ const store: StateCreator<comercioState> = (set) => ({
       }));
     }
   },
+
   getById: async (comercio_id: string) => {
     try {
       set((state) => ({ ...state, loading: true }));
 
       const { data: response } = await apiInstance.get(
         "/comercio/getById/" + comercio_id
+      );
+
+      const { data } = response;
+      set((state) => ({
+        ...state,
+        loading: false,
+        comercio: data || initDataComercio,
+      }));
+    } catch (error) {
+      set((state) => ({
+        ...state,
+        loading: false,
+        error: (error as Error).message,
+      }));
+    }
+  },
+
+  getByName: async (name: string) => {
+    try {
+      set((state) => ({ ...state, loading: true }));
+
+      const { data: response } = await apiInstance.get(
+        "/comercio/getByName/" + name
       );
 
       const { data } = response;
